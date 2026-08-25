@@ -1,6 +1,13 @@
-import json
-import pandas as pd
 from db import conectar
+import seaborn as sns
+import matplotlib.pyplot as plt
+import json
+import os
+import pandas as pd
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+sns.set_theme(style="whitegrid", palette="muted")
 
 
 # Se utiliza para que el agente responda "marzo" y no "3"
@@ -122,7 +129,7 @@ def ventas_por_metodo_pago(conexion) -> dict:
 
     # Agrupa por metodo de pago y suma el monto de las compras
     ventas = df.groupby("metodo_pago")["monto_compra"].sum()
-    
+
     # Agrupa por metodo de pago y cuenta cuantas compras hubo en cada uno
     cantidad = df.groupby("metodo_pago").size()
 
@@ -197,7 +204,8 @@ def segmentacion_por_edad(conexion) -> dict:
     etiquetas = ["18-25", "26-35", "36-45", "46-60", "61 o más"]
 
     # Clasifica cada edad en un rango, usando los limites de cortes y los nombres de etiquetas
-    df["rango_edad"] = pd.cut(df["edad"], bins=cortes, labels=etiquetas).astype(str)
+    df["rango_edad"] = pd.cut(df["edad"], bins=cortes,
+                              labels=etiquetas).astype(str)
 
     # Agrupa por rango de edad y calcula para cada grupo:
     resumen = df.groupby("rango_edad").agg(
@@ -249,7 +257,8 @@ def comparativa_generos(conexion) -> dict:
     tabla = pd.crosstab(df["genero"], df["metodo_pago"])
 
     # Obtiene para cada genero, el metodo de pago mas utilizado
-    preferido = {str(genero): str(tabla.loc[genero].idxmax()) for genero in tabla.index}
+    preferido = {str(genero): str(
+        tabla.loc[genero].idxmax()) for genero in tabla.index}
 
     return {
         "comparativa_generos": resultado,
@@ -339,6 +348,278 @@ def correlaciones(conexion) -> dict:
     }
 
 
+# Funciones de generacion de graficos
+def asegurar_directorio():
+    ruta = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'graficas')
+    os.makedirs(ruta, exist_ok=True)
+    return ruta
+
+
+def grafico_ventas_por_mes_barras(conexion) -> dict:
+    datos = ventas_por_mes(conexion)
+    ventas_dicc = datos["ventas_por_mes"]
+
+    df_grafico = pd.DataFrame(list(ventas_dicc.items()), columns=[
+                              "mes_nombre", "monto_compra"])
+
+    plt.figure(figsize=(10, 6))
+    ax = sns.barplot(data=df_grafico, x="mes_nombre",
+                     y="monto_compra", color="skyblue")
+    for contenedor in ax.containers:
+        ax.bar_label(contenedor, fmt='%.2f', padding=3)
+    plt.title("Ventas Totales por Mes")
+    plt.xlabel("Mes")
+    plt.ylabel("Monto de Compra")
+    plt.xticks(rotation=45)
+
+    ruta = os.path.join(asegurar_directorio(), "ventas_por_mes_barras.png")
+    plt.tight_layout()
+    plt.savefig(ruta)
+    plt.close()
+
+    return {"grafico": "graficas/ventas_por_mes_barras.png", "tipo": "barras", "estado": "generado"}
+
+
+def grafico_tendencia_ventas_lineas(conexion) -> dict:
+    datos = ventas_por_mes(conexion)
+    ventas_dicc = datos["ventas_por_mes"]
+
+    df_grafico = pd.DataFrame(list(ventas_dicc.items()), columns=[
+                              "mes_nombre", "monto_compra"])
+
+    plt.figure(figsize=(10, 6))
+    ax = plt.gca()
+    plt.plot(df_grafico["mes_nombre"],
+             df_grafico["monto_compra"], marker="o", color="darkorange")
+
+    # Agregar el valor numerico con recuadro
+    for i, (mes, monto) in enumerate(zip(df_grafico["mes_nombre"], df_grafico["monto_compra"])):
+        ax.annotate(f"{monto:,.0f}",
+                    (i, monto),
+                    textcoords="offset points",
+                    xytext=(0, 12),
+                    ha='center',
+                    fontsize=8,
+                    weight='bold',
+                    bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="darkorange", alpha=0.8))
+
+    plt.title("Tendencia de Ventas por Mes")
+    plt.xlabel("Mes")
+    plt.ylabel("Monto de Compra")
+    plt.xticks(rotation=45)
+
+    ruta = os.path.join(asegurar_directorio(), "tendencia_ventas_lineas.png")
+    plt.tight_layout()
+    plt.savefig(ruta)
+    plt.close()
+
+    return {"grafico": "graficas/tendencia_ventas_lineas.png", "tipo": "lineas", "estado": "generado"}
+
+
+def grafico_edad_vs_ventas_barras_agrupadas(conexion) -> dict:
+    datos = segmentacion_por_edad(conexion)
+    segmentacion = datos["segmentacion_por_edad"]
+
+    rangos = list(segmentacion.keys())
+    promedios = [info["venta_total_promedio"]
+                 for info in segmentacion.values()]
+    df_grafico = pd.DataFrame(
+        {"Rango de Edad": rangos, "Venta Promedio": promedios})
+
+    plt.figure(figsize=(10, 6))
+    ax = sns.barplot(data=df_grafico, x="Rango de Edad",
+                     y="Venta Promedio", color="teal")
+
+    for contenedor in ax.containers:
+        ax.bar_label(contenedor, fmt='%.2f', padding=3)
+
+    plt.title("Promedio de Venta Total por Rango de Edad")
+    plt.xlabel("Rango de Edad")
+    plt.ylabel("Venta Total Promedio")
+
+    ruta = os.path.join(asegurar_directorio(),
+                        "edad_vs_ventas_barras_agrupadas.png")
+    plt.tight_layout()
+    plt.savefig(ruta)
+    plt.close()
+
+    return {"grafico": "graficas/edad_vs_ventas_barras_agrupadas.png", "tipo": "barras_agrupadas", "estado": "generado"}
+
+
+def grafico_metodo_pago_pastel(conexion) -> dict:
+    datos = ventas_por_metodo_pago(conexion)
+    conteo_dicc = datos["compras_por_metodo"]
+
+    etiquetas = list(conteo_dicc.keys())
+    valores = list(conteo_dicc.values())
+
+    plt.figure(figsize=(8, 8))
+    plt.pie(valores, labels=etiquetas, autopct='%1.1f%%', startangle=140)
+    plt.title("Distribucion de Metodos de Pago")
+
+    ruta = os.path.join(asegurar_directorio(), "metodo_pago_pastel.png")
+    plt.tight_layout()
+    plt.savefig(ruta)
+    plt.close()
+
+    return {"grafico": "graficas/metodo_pago_pastel.png", "tipo": "pastel", "estado": "generado"}
+
+
+def grafico_compras_por_genero_densidad(conexion) -> dict:
+    df = cargar_datos(conexion)
+
+    plt.figure(figsize=(10, 6))
+
+    # Asignar un color a cada genero para mantener consistencia
+    paleta = sns.color_palette()
+    generos = df["genero"].unique()
+    dict_colores = {gen: paleta[i] for i, gen in enumerate(generos)}
+
+    ax = sns.kdeplot(data=df, x="monto_compra", hue="genero",
+                     fill=True, common_norm=False, alpha=0.5, palette=dict_colores)
+
+    # Calcular y dibujar los promedios
+    promedios = df.groupby("genero")["monto_compra"].mean()
+    for i, (genero, promedio) in enumerate(promedios.items()):
+        color = dict_colores[genero]
+        ax.axvline(promedio, color=color, linestyle='--', alpha=0.8)
+        ax.text(promedio + 2, ax.get_ylim()[1] * (0.9 - i * 0.05),
+                f"Promedio {genero}: {promedio:.2f}", color=color, weight='bold')
+
+    plt.title("Densidad de Monto de Compra por Genero")
+    plt.xlabel("Monto de Compra")
+    plt.ylabel("Densidad")
+
+    ruta = os.path.join(asegurar_directorio(), "compras_genero_densidad.png")
+    plt.tight_layout()
+    plt.savefig(ruta)
+    plt.close()
+
+    return {"grafico": "graficas/compras_genero_densidad.png", "tipo": "densidad", "estado": "generado"}
+
+
+def grafico_correlacion_heatmap(conexion) -> dict:
+    df = cargar_datos(conexion)
+    variables_numericas = df[[
+        "edad", "venta_total", "monto_compra", "n_compras"]]
+
+    # Renombrar columnas para que sea super facil de leer
+    variables_numericas = variables_numericas.rename(columns={
+        "edad": "Edad",
+        "venta_total": "Venta Total",
+        "monto_compra": "Monto por Compra",
+        "n_compras": "N. de Compras"
+    })
+
+    correlacion = variables_numericas.corr()
+
+    plt.figure(figsize=(8, 6))
+    sns.heatmap(correlacion, annot=True, fmt=".2f",
+                cmap="coolwarm", vmin=-1, vmax=1, center=0,
+                square=True, linewidths=.5, cbar_kws={"shrink": .7})
+    plt.title("Relación entre Variables de Compra")
+
+    ruta = os.path.join(asegurar_directorio(), "correlacion_heatmap.png")
+    plt.tight_layout()
+    plt.savefig(ruta)
+    plt.close()
+
+    return {"grafico": "graficas/correlacion_heatmap.png", "tipo": "heatmap", "estado": "generado"}
+
+
+def grafico_distribucion_edad_histograma(conexion) -> dict:
+    df = cargar_datos(conexion)
+
+    plt.figure(figsize=(10, 6))
+
+    # enteros para que el eje X sea exacto
+    edad_min = int(df["edad"].min())
+    edad_max = int(df["edad"].max())
+    bins = range(edad_min, edad_max + 4, 3)
+
+    ax = sns.histplot(data=df, x="edad", bins=bins, kde=True, color="purple")
+
+    # Agregar el valor numerico encima de cada barra
+    for c in ax.containers:
+        etiquetas = [f"{int(v.get_height())}" if v.get_height()
+                     > 0 else "" for v in c]
+        ax.bar_label(c, labels=etiquetas, padding=3, fontsize=8, color="black")
+
+    plt.xticks(bins, rotation=45)
+
+    plt.title("Distribucion de Edades de Clientes")
+    plt.xlabel("Rango de Edad")
+    plt.ylabel("Frecuencia")
+
+    ruta = os.path.join(asegurar_directorio(),
+                        "distribucion_edad_histograma.png")
+    plt.tight_layout()
+    plt.savefig(ruta)
+    plt.close()
+
+    return {"grafico": "graficas/distribucion_edad_histograma.png", "tipo": "histograma", "estado": "generado"}
+
+
+def grafico_compras_por_navegador_barras(conexion) -> dict:
+    datos = ranking_navegadores(conexion)
+    compras_dicc = datos["compras_por_canal"]
+
+    df_grafico = pd.DataFrame(list(compras_dicc.items()), columns=["navegador", "compras"])
+    df_grafico = df_grafico.sort_values(by="compras", ascending=False)
+
+    plt.figure(figsize=(10, 6))
+    ax = sns.barplot(data=df_grafico, x="compras", y="navegador", color="mediumpurple")
+    for contenedor in ax.containers:
+        ax.bar_label(contenedor, padding=3)
+
+    plt.title("Distribucion de Compras por Navegador o Canal")
+    plt.xlabel("Numero de Compras")
+    plt.ylabel("Navegador o Canal")
+
+    ruta = os.path.join(asegurar_directorio(), "compras_por_navegador_barras.png")
+    plt.tight_layout()
+    plt.savefig(ruta)
+    plt.close()
+
+    return {"grafico": "graficas/compras_por_navegador_barras.png", "tipo": "barras_horizontales", "estado": "generado"}
+
+
+def grafico_boletin_pastel(conexion) -> dict:
+    datos = uso_boletin_vale(conexion)
+    
+    etiquetas = ["Con Boletín", "Sin Boletín"]
+    valores = [datos["clientes_con_boletin"], datos["clientes_sin_boletin"]]
+    
+    plt.figure(figsize=(6, 6))
+    plt.pie(valores, labels=etiquetas, autopct='%1.1f%%', startangle=90, colors=["#ff9999","#66b3ff"])
+    plt.title("Uso de Boletín por los Clientes")
+
+    ruta = os.path.join(asegurar_directorio(), "boletin_pastel.png")
+    plt.tight_layout()
+    plt.savefig(ruta)
+    plt.close()
+
+    return {"grafico": "graficas/boletin_pastel.png", "tipo": "pastel", "estado": "generado"}
+
+
+def grafico_vale_pastel(conexion) -> dict:
+    datos = uso_boletin_vale(conexion)
+    
+    etiquetas = ["Con Vale", "Sin Vale"]
+    valores = [datos["clientes_con_vale"], datos["clientes_sin_vale"]]
+    
+    plt.figure(figsize=(6, 6))
+    plt.pie(valores, labels=etiquetas, autopct='%1.1f%%', startangle=90, colors=["#99ff99","#ffcc99"])
+    plt.title("Uso de Vale por los Clientes")
+
+    ruta = os.path.join(asegurar_directorio(), "vale_pastel.png")
+    plt.tight_layout()
+    plt.savefig(ruta)
+    plt.close()
+
+    return {"grafico": "graficas/vale_pastel.png", "tipo": "pastel", "estado": "generado"}
+
+
 # Traduce el coeficiente a palabras para que el agente de IA lo explique
 def interpretar_correlacion(valor):
     fuerza = abs(valor)
@@ -365,8 +646,18 @@ if __name__ == "__main__":
         ("4.2:", comparativa_generos),
         ("4.3:", patrones_boletin_vale),
         ("5.1, 5.2 y 5.3:", correlaciones),
+        ("6.1:", grafico_ventas_por_mes_barras),
+        ("6.2:", grafico_tendencia_ventas_lineas),
+        ("6.3:", grafico_edad_vs_ventas_barras_agrupadas),
+        ("6.4:", grafico_metodo_pago_pastel),
+        ("6.5:", grafico_compras_por_genero_densidad),
+        ("6.6:", grafico_correlacion_heatmap),
+        ("6.7:", grafico_distribucion_edad_histograma),
+        ("6.8:", grafico_compras_por_navegador_barras),
+        ("6.9:", grafico_boletin_pastel),
+        ("6.10:", grafico_vale_pastel),
     ]
-    
+
     for titulo, funcion in analisis:
         print("\n" + "=" * 30)
         print(titulo)

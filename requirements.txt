@@ -2,3 +2,6 @@ pandas
 sqlalchemy
 psycopg2-binary
 python-dotenv
+matplotlib
+seaborn
+mcp
