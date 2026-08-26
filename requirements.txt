@@ -4,4 +4,6 @@ psycopg2-binary
 python-dotenv
 matplotlib
 seaborn
-mcp
+mcp<2
+
+google-adk
