@@ -1,4 +1,4 @@
-from db import conectar
+from Practica1.src.db import conectar
 import seaborn as sns
 import matplotlib.pyplot as plt
 import json

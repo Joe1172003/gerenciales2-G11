@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from sqlalchemy import text
-from db import conectar
+from Practica1.src.db import conectar
 
 CARPETA_PROYECTO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RUTA_CSV = os.path.join(CARPETA_PROYECTO, "Venta_online_c.csv")

@@ -1,7 +1,7 @@
 from mcp.server.fastmcp import FastMCP
 from mcp.types import TextContent, ImageContent
-from db import conectar
-import analytics
+from Practica1.src.db import conectar
+import Practica1.src.analytics as analytics
 import json
 import base64
 
