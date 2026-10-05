@@ -1,0 +1,39 @@
+# La base de datos esta en Cloud SQL (qm-db)
+services:
+  odoo:
+    image: odoo:18.0
+    container_name: qm-odoo
+    restart: unless-stopped
+    environment:
+      PGSSLMODE: require
+    volumes:
+      - odoo-data:/var/lib/odoo            # adjuntos y sesiones
+      - ./odoo.conf:/etc/odoo/odoo.conf:ro
+      - ./addons:/mnt/extra-addons         # modulos propios
+      - ./oca/dms:/mnt/oca-dms:ro          # modulo dms de OCA (gestor documental)
+    ports:
+      - "127.0.0.1:8069:8069"              # solo accesible desde la VM
+    networks: [qm]
+
+  caddy:
+    image: caddy:2
+    container_name: qm-caddy
+    restart: unless-stopped
+    depends_on: [odoo]
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data                   # certificados HTTPS
+      - caddy-config:/config
+    networks: [qm]
+
+volumes:
+  odoo-data:
+  caddy-data:
+  caddy-config:
+
+networks:
+  qm:

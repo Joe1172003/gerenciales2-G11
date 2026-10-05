@@ -1,0 +1,30 @@
+; deploy.sh genera odoo.conf con los datos del .env (odoo.conf no se sube al repo)
+[options]
+admin_passwd = ${ODOO_MASTER_PASSWORD}
+
+; conexion a Cloud SQL con SSL
+db_host = ${SQL_IP}
+db_port = 5432
+db_user = ${PG_ODOO_USER}
+db_password = ${PG_ODOO_PASSWORD}
+db_sslmode = require
+db_name = ${ODOO_DB}
+dbfilter = ^${ODOO_DB}$
+db_maxconn = 16
+list_db = False
+
+; Odoo va detras de Caddy
+proxy_mode = True
+
+; valores para una e2-medium (2 vCPU, 4 GB)
+workers = 2
+max_cron_threads = 1
+gevent_port = 8072
+limit_memory_soft = 671088640
+limit_memory_hard = 939524096
+limit_time_cpu = 600
+limit_time_real = 1200
+
+addons_path = /mnt/extra-addons,/mnt/oca-dms,/usr/lib/python3/dist-packages/odoo/addons
+data_dir = /var/lib/odoo
+without_demo = all

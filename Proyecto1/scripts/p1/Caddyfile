@@ -1,0 +1,8 @@
+quetzalmart-g11.duckdns.org {
+	encode gzip
+
+	# websocket de Odoo (chat y notificaciones)
+	reverse_proxy /websocket* odoo:8072
+
+	reverse_proxy odoo:8069
+}

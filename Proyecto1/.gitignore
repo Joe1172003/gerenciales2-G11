@@ -1,0 +1,9 @@
+# Credenciales: nunca al repositorio (van en el mensaje fijado del grupo)
+.env
+*.env
+secrets/
+*.pem
+*.key
+scripts/p1/odoo.conf
+documentos/html/
+documentos/manifiesto.json
