@@ -224,3 +224,119 @@ FROM crm_lead l
 WHERE l.type = 'opportunity'
 ORDER BY l.id DESC
 LIMIT 10;
+
+
+-- 24. Total de empleados activos (minimo 35)
+SELECT count(*) AS empleados
+FROM hr_employee
+WHERE active;
+ 
+ 
+-- 25. Departamentos con su jefe y cantidad de empleados (minimo 5)
+SELECT coalesce(d.name->>'es_419', d.name->>'en_US') AS departamento,
+       jefe.name                                     AS jefe,
+       count(e.id)                                   AS empleados
+FROM hr_department d
+LEFT JOIN hr_employee jefe ON jefe.id = d.manager_id
+LEFT JOIN hr_employee e    ON e.department_id = d.id AND e.active
+GROUP BY d.id, d.name, jefe.name
+ORDER BY d.id;
+ 
+ 
+-- 26. Cargos (puestos de trabajo) y cantidad de empleados (minimo 6)
+SELECT coalesce(j.name->>'es_419', j.name->>'en_US') AS cargo,
+       coalesce(d.name->>'es_419', d.name->>'en_US') AS departamento,
+       count(e.id)                                   AS empleados
+FROM hr_job j
+LEFT JOIN hr_department d ON d.id = j.department_id
+LEFT JOIN hr_employee e   ON e.job_id = j.id AND e.active
+GROUP BY j.id, j.name, d.name
+ORDER BY j.id;
+ 
+ 
+-- 27. Empleados por sucursal (etiqueta de empleado QM Guatemala / QM Mexico / QM El Salvador)
+SELECT c.name      AS sucursal,
+       count(e.id) AS empleados
+FROM hr_employee_category c
+JOIN employee_category_rel r ON r.category_id = c.id
+JOIN hr_employee e           ON e.id = r.employee_id AND e.active
+WHERE c.name LIKE 'QM %'
+GROUP BY c.name
+ORDER BY empleados DESC;
+ 
+ 
+-- 28. Listado de empleados: codigo, nombre, cargo, departamento, jefe y correo
+SELECT e.barcode                                     AS codigo,
+       e.name                                        AS empleado,
+       coalesce(j.name->>'es_419', j.name->>'en_US') AS cargo,
+       coalesce(d.name->>'es_419', d.name->>'en_US') AS departamento,
+       jefe.name                                     AS jefe,
+       e.work_email                                  AS correo
+FROM hr_employee e
+LEFT JOIN hr_job j           ON j.id = e.job_id
+LEFT JOIN hr_department d    ON d.id = e.department_id
+LEFT JOIN hr_employee jefe   ON jefe.id = e.parent_id
+WHERE e.active
+ORDER BY e.barcode;
+ 
+ 
+-- 29. Contratos de empleados en el gestor documental (minimo 5) con categoria y etiquetas
+SELECT f.name                                        AS documento,
+       coalesce(c.name->>'es_419', c.name->>'en_US') AS categoria,
+       string_agg(coalesce(t.name->>'es_419', t.name->>'en_US'), ', ' ORDER BY t.id) AS etiquetas
+FROM dms_file f
+JOIN dms_directory d         ON d.id = f.directory_id
+LEFT JOIN dms_category c     ON c.id = f.category_id
+LEFT JOIN dms_file_tag_rel r ON r.fid = f.id
+LEFT JOIN dms_tag t          ON t.id = r.tid
+WHERE d.name = 'Contratos de empleados'
+GROUP BY f.name, c.name
+ORDER BY f.name;
+ 
+ 
+-- 30. RPA: clientes cargados por el bot de UiPath (los crea el usuario del bot)
+SELECT p.name                                          AS cliente,
+       p.company_type                                  AS tipo,
+       p.email, p.phone,
+       p.city                                          AS ciudad,
+       coalesce(co.name->>'es_419', co.name->>'en_US') AS pais,
+       p.vat                                           AS nit,
+       p.ref                                           AS referencia,
+       p.create_date                                   AS cargado
+FROM res_partner p
+JOIN res_users u         ON u.id = p.create_uid
+LEFT JOIN res_country co ON co.id = p.country_id
+WHERE u.login = 'bot.rpa@quetzalmart.example.com'
+ORDER BY p.id DESC;
+ 
+ 
+-- 31. RPA: productos cargados por el bot, con su ID externo y cantidad a la mano
+SELECT x.module || '.' || x.name                     AS id_externo,
+       t.default_code                                AS referencia,
+       coalesce(t.name->>'es_419', t.name->>'en_US') AS producto,
+       t.type                                        AS tipo,
+       t.list_price                                  AS precio_venta,
+       t.standard_price                              AS costo,
+       t.is_published                                AS publicado,
+       (SELECT coalesce(sum(q.quantity), 0)
+          FROM stock_quant q
+          JOIN product_product pp ON pp.id = q.product_id
+          JOIN stock_location l   ON l.id = q.location_id AND l.usage = 'internal'
+         WHERE pp.product_tmpl_id = t.id)            AS cantidad_a_la_mano
+FROM product_template t
+JOIN res_users u          ON u.id = t.create_uid
+LEFT JOIN ir_model_data x ON x.model = 'product.template' AND x.res_id = t.id
+WHERE u.login = 'bot.rpa@quetzalmart.example.com'
+ORDER BY t.id DESC;
+ 
+ 
+-- 32. RPA: resumen de lo que cargo el bot hoy (correr justo despues de ejecutarlo)
+SELECT 'clientes' AS tipo, count(*) AS registros
+FROM res_partner p
+JOIN res_users u ON u.id = p.create_uid
+WHERE u.login = 'bot.rpa@quetzalmart.example.com' AND p.create_date >= current_date
+UNION ALL
+SELECT 'productos', count(*)
+FROM product_template t
+JOIN res_users u ON u.id = t.create_uid
+WHERE u.login = 'bot.rpa@quetzalmart.example.com' AND t.create_date >= current_date;
