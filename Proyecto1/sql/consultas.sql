@@ -136,3 +136,91 @@ FROM res_users u
 JOIN res_partner p ON p.id = u.partner_id
 WHERE u.active AND NOT u.share
 ORDER BY u.id;
+
+-- 15. Catalogo cargado y publicado en la tienda
+SELECT count(*)                                AS productos,
+       count(*) FILTER (WHERE is_published)    AS publicados,
+       count(*) FILTER (WHERE is_storable)     AS con_inventario
+FROM product_template
+WHERE active AND default_code LIKE 'QMP%';
+
+
+-- 16. Productos por categoria
+SELECT c.complete_name AS categoria, count(t.id) AS productos
+FROM product_template t
+JOIN product_category c ON c.id = t.categ_id
+WHERE t.default_code LIKE 'QMP%'
+GROUP BY 1
+ORDER BY 1;
+
+
+-- 17. Existencias por sucursal
+SELECT w.code AS sucursal,
+       w.name AS almacen,
+       count(DISTINCT q.product_id)   AS productos,
+       sum(q.quantity)::numeric(12,2) AS unidades
+FROM stock_warehouse w
+JOIN stock_quant q ON q.location_id = w.lot_stock_id
+GROUP BY w.code, w.name
+ORDER BY w.code;
+
+
+-- 18. Metodos de entrega publicados en la tienda
+SELECT coalesce(name->>'es_419', name->>'en_US') AS metodo,
+       delivery_type AS tipo,
+       fixed_price   AS precio,
+       is_published  AS publicado
+FROM delivery_carrier
+WHERE active
+ORDER BY id;
+
+
+-- 19. Proveedor de pago y transacciones
+SELECT p.code  AS proveedor,
+       p.state AS modo,
+       count(t.id)                              AS transacciones,
+       count(*) FILTER (WHERE t.state = 'done') AS exitosas
+FROM payment_provider p
+LEFT JOIN payment_transaction t ON t.provider_id = p.id
+WHERE p.state <> 'disabled'
+GROUP BY p.code, p.state;
+
+
+-- 20. Pedidos hechos desde el sitio web
+SELECT o.name           AS pedido,
+       p.complete_name  AS cliente,
+       o.amount_total   AS total,
+       o.state          AS estado,
+       o.date_order     AS fecha
+FROM sale_order o
+JOIN res_partner p ON p.id = o.partner_id
+WHERE o.website_id IS NOT NULL
+ORDER BY o.id DESC;
+
+
+-- 21. Facturas emitidas y su estado de pago
+SELECT m.name          AS factura,
+       m.amount_total  AS total,
+       m.payment_state AS pago,
+       m.invoice_date  AS fecha
+FROM account_move m
+WHERE m.move_type = 'out_invoice' AND m.state = 'posted'
+ORDER BY m.id DESC;
+
+
+-- 22. PDF que la regla de automatizacion guardo en el gestor
+SELECT count(*) AS pdf_en_carpeta
+FROM dms_file f
+JOIN dms_directory d ON d.id = f.directory_id
+WHERE d.name = 'Facturas emitidas';
+
+
+-- 23. Oportunidades que entraron por el formulario de contacto
+SELECT l.name         AS oportunidad,
+       l.contact_name AS contacto,
+       l.email_from   AS correo,
+       l.create_date  AS fecha
+FROM crm_lead l
+WHERE l.type = 'opportunity'
+ORDER BY l.id DESC
+LIMIT 10;
