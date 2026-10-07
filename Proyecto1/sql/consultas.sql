@@ -224,3 +224,155 @@ FROM crm_lead l
 WHERE l.type = 'opportunity'
 ORDER BY l.id DESC
 LIMIT 10;
+
+
+-- ================================
+-- Ariel - compras y materiales
+-- ================================
+
+-- 1. Compras confirmadas
+SELECT COUNT(*) AS compras_confirmadas
+FROM purchase_order
+WHERE state IN ('purchase', 'done');
+
+
+-- 2. Facturas de proveedor publicadas
+SELECT COUNT(*) AS facturas_proveedor_publicadas
+FROM account_move
+WHERE move_type = 'in_invoice'
+    AND state = 'posted';
+
+
+-- 3. Solicitudes de cotizacion sin confirmar
+SELECT COUNT(*) AS solicitudes_sin_confirmar
+FROM purchase_order
+WHERE state IN ('draft', 'sent');
+
+
+-- 4. Compras confirmadas por sucursal
+SELECT sw.code AS codigo,
+    sw.name AS sucursal,
+    COUNT(*) AS compras_confirmadas
+FROM purchase_order po
+LEFT JOIN stock_picking_type spt ON spt.id = po.picking_type_id
+LEFT JOIN stock_warehouse sw ON sw.id = spt.warehouse_id
+WHERE po.state IN ('purchase', 'done')
+GROUP BY sw.code, sw.name
+ORDER BY sw.code;
+
+
+-- 5. Materiales de sucursal
+SELECT COUNT(*) AS materiales
+FROM product_template t
+JOIN product_category c ON c.id = t.categ_id
+WHERE t.active
+    AND c.name = 'Materiales de sucursal';
+
+
+-- 6. Proveedores
+SELECT COUNT(*) AS proveedores
+FROM res_partner
+WHERE active
+    AND supplier_rank > 0;
+
+
+-- 7. Recepcion y factura de las compras
+-- Cuenta las compras recibidas completas y las que tienen una factura publicada
+-- Señala compras con recepción incompleta, sin factura publicada o con varias facturas
+WITH revision AS (
+    SELECT po.id,
+        COUNT(DISTINCT sp.id) FILTER (
+            WHERE spt.code = 'incoming' AND sp.state = 'done'
+        ) AS recepciones_hechas,
+        COUNT(DISTINCT sp.id) FILTER (
+            WHERE spt.code = 'incoming'
+                AND sp.state NOT IN ('done', 'cancel')
+        ) AS recepciones_pendientes,
+        COUNT(DISTINCT pol.id) AS lineas,
+        BOOL_AND(
+            ABS(COALESCE(pol.qty_received, 0)
+                - pol.product_qty) <= 0.000001
+        ) AS cantidades_completas,
+        COUNT(DISTINCT am.id) AS facturas,
+        COUNT(DISTINCT am.id) FILTER (
+            WHERE am.state = 'posted'
+        ) AS facturas_publicadas
+    FROM purchase_order po
+    LEFT JOIN purchase_order_line pol
+        ON pol.order_id = po.id AND pol.display_type IS NULL
+    LEFT JOIN stock_move sm ON sm.purchase_line_id = pol.id
+    LEFT JOIN stock_picking sp ON sp.id = sm.picking_id
+    LEFT JOIN stock_picking_type spt ON spt.id = sp.picking_type_id
+    LEFT JOIN account_move_line aml ON aml.purchase_line_id = pol.id
+    LEFT JOIN account_move am
+        ON am.id = aml.move_id
+        AND am.move_type = 'in_invoice'
+        AND am.state <> 'cancel'
+    WHERE po.state IN ('purchase', 'done')
+    GROUP BY po.id
+),
+resultado AS (
+    SELECT *,
+        COALESCE(
+            lineas > 0
+            AND recepciones_hechas > 0
+            AND recepciones_pendientes = 0
+            AND cantidades_completas,
+            FALSE
+        ) AS recepcion_completa
+    FROM revision
+)
+SELECT COUNT(*) AS compras_revisadas,
+    COUNT(*) FILTER (
+        WHERE recepcion_completa
+    ) AS compras_recibidas_completas,
+    COUNT(*) FILTER (
+        WHERE NOT recepcion_completa
+    ) AS compras_con_recepcion_incompleta,
+    COUNT(*) FILTER (
+        WHERE facturas = 1 AND facturas_publicadas = 1
+    ) AS compras_con_una_factura_publicada,
+    COUNT(*) FILTER (
+        WHERE facturas_publicadas = 0
+    ) AS compras_sin_factura_publicada,
+    COUNT(*) FILTER (
+        WHERE facturas > 1
+    ) AS compras_con_varias_facturas
+FROM resultado;
+
+
+-- 8. Resumen de cantidades
+-- Muestra en una fila proveedores, materiales, compras confirmadas,
+-- recepciones validadas, facturas publicadas y cotizaciones sin confirmar
+WITH compras AS (
+    SELECT id
+    FROM purchase_order
+    WHERE state IN ('purchase', 'done')
+),
+recepciones AS (
+    SELECT DISTINCT sp.id
+    FROM compras c
+    JOIN purchase_order_line pol ON pol.order_id = c.id
+    JOIN stock_move sm ON sm.purchase_line_id = pol.id
+    JOIN stock_picking sp ON sp.id = sm.picking_id
+    JOIN stock_picking_type spt ON spt.id = sp.picking_type_id
+    WHERE spt.code = 'incoming'
+      AND sp.state = 'done'
+)
+SELECT (SELECT COUNT(*)
+        FROM res_partner
+        WHERE active AND supplier_rank > 0) AS proveedores,
+    (SELECT COUNT(*)
+        FROM product_template t
+        JOIN product_category c ON c.id = t.categ_id
+        WHERE t.active
+        AND c.name = 'Materiales de sucursal') AS materiales,
+    (SELECT COUNT(*) FROM compras) AS compras_confirmadas,
+    (SELECT COUNT(*) FROM recepciones) AS recepciones_validadas,
+    (SELECT COUNT(*)
+        FROM account_move
+        WHERE move_type = 'in_invoice'
+        AND state = 'posted') AS facturas_publicadas,
+    (SELECT COUNT(*)
+        FROM purchase_order
+        WHERE state IN ('draft', 'sent')) AS cotizaciones_sin_confirmar;

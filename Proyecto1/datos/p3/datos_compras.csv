@@ -1,0 +1,676 @@
+﻿"id","origin","date_order","partner_id","currency_id","picking_type_id","date_planned","order_line/id","order_line/product_id","order_line/name","order_line/product_qty","order_line/price_unit","order_line/taxes_id/id","order_line/product_uom/id","order_line/date_planned"
+"cmp002","QMGT-MAT-002","2026-08-17 10:10:00","Estanterías y Mobiliario Centroamericano, S.A.","GTQ","QM Guatemala: Recepciones","2026-08-21 11:30:00","cmp002_linea01","[QMM0001] Estantería metálica de bodega 5 niveles","[QMM0001] Estantería metálica de bodega 5 niveles
+Estructura de 180 x 90 x 40 cm para almacenamiento de insumos.
+Unidad de compra: 1 unidad.","1","1250","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-21 11:30:00"
+"","","","","","","","cmp002_linea02","[QMM0002] Estantería central de doble cara","[QMM0002] Estantería central de doble cara
+Estantería de 180 x 100 cm para colocar productos a ambos lados del pasillo.
+Unidad de compra: 1 unidad.","1","2850","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-21 11:30:00"
+"cmp003","QMGT-MAT-003","2026-08-17 12:15:00","Estanterías y Mobiliario Centroamericano, S.A.","GTQ","QM Guatemala: Recepciones","2026-08-24 13:15:00","cmp003_linea01","[QMM0003] Estante de pared 4 niveles","[QMM0003] Estante de pared 4 niveles
+Estante de 180 x 90 cm para colocar productos junto a una pared.
+Unidad de compra: 1 unidad.","2","1650","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-24 13:15:00"
+"cmp004","QMGT-MAT-004","2026-08-17 14:20:00","Equipamiento Comercial del Altiplano, S.A.","GTQ","QM Guatemala: Recepciones","2026-08-25 09:30:00","cmp004_linea01","[QMM0004] Mostrador para caja con cajón","[QMM0004] Mostrador para caja con cajón
+Mostrador de 120 cm para el área de cobro.
+Unidad de compra: 1 unidad.","2","2200","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-25 09:30:00"
+"","","","","","","","cmp004_linea02","[QMM0008] Silla ajustable para caja","[QMM0008] Silla ajustable para caja
+Silla de altura ajustable para el personal de caja.
+Unidad de compra: 1 unidad.","2","480","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-25 09:30:00"
+"cmp005","QMGT-MAT-005","2026-08-18 08:25:00","Estanterías y Mobiliario Centroamericano, S.A.","GTQ","QM Guatemala: Recepciones","2026-08-24 11:15:00","cmp005_linea01","[QMM0005] Mesa de acero para recepción de mercancía","[QMM0005] Mesa de acero para recepción de mercancía
+Mesa de 150 x 70 cm para revisión de mercancía recibida.
+Unidad de compra: 1 unidad.","1","1450","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-24 11:15:00"
+"","","","","","","","cmp005_linea02","[QMM0006] Gabinete metálico de almacenamiento","[QMM0006] Gabinete metálico de almacenamiento
+Gabinete de dos puertas con cerradura para insumos.
+Unidad de compra: 1 unidad.","1","1180","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-24 11:15:00"
+"cmp006","QMGT-MAT-006","2026-08-18 10:30:00","Estanterías y Mobiliario Centroamericano, S.A.","GTQ","QM Guatemala: Recepciones","2026-08-25 13:30:00","cmp006_linea01","[QMM0007] Casillero metálico de 6 compartimientos","[QMM0007] Casillero metálico de 6 compartimientos
+Casillero con puertas para guardar pertenencias del personal.
+Unidad de compra: 1 unidad.","1","1850","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-25 13:30:00"
+"cmp007","QMGT-MAT-007","2026-08-18 12:05:00","Empaques y Plásticos del Norte, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-08-31 09:15:00","cmp007_linea01","[QMM0009] Tarima plástica industrial 120 x 100 cm","[QMM0009] Tarima plástica industrial 120 x 100 cm
+Tarima reutilizable para almacenamiento en bodega.
+Unidad de compra: 1 unidad.","4","420","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-31 09:15:00"
+"","","","","","","","cmp007_linea02","[QMM0010] Caja plástica apilable 60 L","[QMM0010] Caja plástica apilable 60 L
+Caja reforzada para organizar materiales en bodega.
+Unidad de compra: 1 unidad.","6","165","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-31 09:15:00"
+"cmp008","QMGT-MAT-008","2026-08-19 14:10:00","Carritos y Canastas del Istmo, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-04 11:30:00","cmp008_linea01","[QMM0011] Carrito de supermercado 100 L","[QMM0011] Carrito de supermercado 100 L
+Carrito metálico con asiento infantil para uso de clientes.
+Unidad de compra: 1 unidad.","6","1350","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 11:30:00"
+"cmp009","QMGT-MAT-009","2026-08-19 08:15:00","Carritos y Canastas del Istmo, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-07 13:15:00","cmp009_linea01","[QMM0012] Canasta de compras con asas 28 L","[QMM0012] Canasta de compras con asas 28 L
+Canasta plástica para uso de clientes dentro de la tienda.
+Unidad de compra: 1 unidad.","20","85","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 13:15:00"
+"","","","","","","","cmp009_linea02","[QMM0013] Canasta de compras con ruedas 45 L","[QMM0013] Canasta de compras con ruedas 45 L
+Canasta plástica de arrastre para uso en pasillos.
+Unidad de compra: 1 unidad.","6","210","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 13:15:00"
+"cmp010","QMGT-MAT-010","2026-08-19 10:20:00","Ferretería Comercial del Norte, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-08 09:30:00","cmp010_linea01","[QMM0014] Carretilla de carga plegable 150 kg","[QMM0014] Carretilla de carga plegable 150 kg
+Carretilla manual para traslado de cajas.
+Unidad de compra: 1 unidad.","1","620","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 09:30:00"
+"","","","","","","","cmp010_linea02","[QMM0015] Carro de plataforma para bodega 300 kg","[QMM0015] Carro de plataforma para bodega 300 kg
+Carro de cuatro ruedas para traslado interno de mercancía.
+Unidad de compra: 1 unidad.","1","1150","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 09:30:00"
+"cmp011","QMGT-MAT-011","2026-08-20 12:25:00","Ferretería Comercial del Norte, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-07 11:15:00","cmp011_linea01","[QMM0016] Carro hidráulico para tarimas 2500 kg","[QMM0016] Carro hidráulico para tarimas 2500 kg
+Carro manual con elevación hidráulica para mover tarimas en bodega.
+Unidad de compra: 1 unidad.","1","3450","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 11:15:00"
+"cmp012","QMGT-MAT-012","2026-08-20 14:30:00","Carritos y Canastas del Istmo, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-01 13:30:00","cmp012_linea01","[QMM0017] Rueda giratoria para carrito 100 mm","[QMM0017] Rueda giratoria para carrito 100 mm
+Rueda de repuesto para mantenimiento de carritos.
+Unidad de compra: 1 unidad.","8","48","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-01 13:30:00"
+"","","","","","","","cmp012_linea02","[QMM0018] Rueda fija para carrito 100 mm","[QMM0018] Rueda fija para carrito 100 mm
+Rueda de repuesto para mantenimiento de carritos.
+Unidad de compra: 1 unidad.","8","42","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-01 13:30:00"
+"","","","","","","","cmp012_linea03","[QMM0019] Asa de repuesto para canasta 28 L","[QMM0019] Asa de repuesto para canasta 28 L
+Asa plástica compatible con las canastas de compras.
+Unidad de compra: 1 unidad.","6","18","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-01 13:30:00"
+"","","","","","","","cmp012_linea04","[QMM0020] Protector plástico para carrito 100 L","[QMM0020] Protector plástico para carrito 100 L
+Banda plástica de repuesto para proteger los bordes del carrito.
+Unidad de compra: 1 unidad.","6","35","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-01 13:30:00"
+"cmp013","QMGT-MAT-013","2026-08-20 08:05:00","Papelería y Consumibles Azteca, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-02 09:15:00","cmp013_linea01","[QMM0021] Papel térmico para caja 80 x 80 mm","[QMM0021] Papel térmico para caja 80 x 80 mm
+Rollo para impresión de recibos en cajas.
+Unidad de compra: 1 rollo de papel térmico de 80 x 80 mm.","24","12.5","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-02 09:15:00"
+"","","","","","","","cmp013_linea02","[QMM0022] Papel térmico para pago con tarjeta 57 x 40 mm","[QMM0022] Papel térmico para pago con tarjeta 57 x 40 mm
+Papel térmico para imprimir comprobantes en terminales de pago con tarjeta.
+Unidad de compra: 1 rollo de papel térmico de 57 x 40 mm.","30","4.5","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-02 09:15:00"
+"cmp014","QMGT-MAT-014","2026-08-21 10:10:00","Etiquetas y Señalización Maya, S.A.","GTQ","QM Guatemala: Recepciones","2026-08-25 11:30:00","cmp014_linea01","[QMM0023] Etiquetas adhesivas 50 x 30 mm, rollo 1000 unidades","[QMM0023] Etiquetas adhesivas 50 x 30 mm, rollo 1000 unidades
+Rollo de 1000 etiquetas para identificar precios y materiales.
+Unidad de compra: 1 rollo de 1000 etiquetas.","3","45","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-25 11:30:00"
+"","","","","","","","cmp014_linea02","[QMM0024] Soporte plástico para etiquetas de precio 100 cm","[QMM0024] Soporte plástico para etiquetas de precio 100 cm
+Tira plástica transparente para sostener etiquetas de precio en estantes.
+Unidad de compra: 1 unidad.","20","22","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-25 11:30:00"
+"","","","","","","","cmp014_linea03","[QMM0025] Etiquetas de precio para estantes, paquete 100","[QMM0025] Etiquetas de precio para estantes, paquete 100
+Paquete de 100 tarjetas de cartulina para mostrar precios.
+Unidad de compra: 1 paquete de 100 tarjetas de precio.","4","15","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-25 11:30:00"
+"cmp015","QMGT-MAT-015","2026-08-21 12:15:00","Empaques y Plásticos del Norte, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-02 13:15:00","cmp015_linea01","[QMM0026] Bolsas biodegradables medianas, paquete 100","[QMM0026] Bolsas biodegradables medianas, paquete 100
+Paquete para empaque de compras en caja.
+Unidad de compra: 1 paquete de 100 bolsas.","10","38","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-02 13:15:00"
+"","","","","","","","cmp015_linea02","[QMM0027] Bolsas biodegradables grandes, paquete 100","[QMM0027] Bolsas biodegradables grandes, paquete 100
+Paquete para empaque de compras voluminosas en caja.
+Unidad de compra: 1 paquete de 100 bolsas.","8","58","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-02 13:15:00"
+"cmp016","QMGT-MAT-016","2026-08-21 14:20:00","Empaques y Plásticos del Norte, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-03 09:30:00","cmp016_linea01","[QMM0028] Plástico para envolver tarimas 50 cm, rollo 2 kg","[QMM0028] Plástico para envolver tarimas 50 cm, rollo 2 kg
+Rollo de plástico estirable para asegurar cajas sobre tarimas.
+Unidad de compra: 1 rollo de plástico de 2 kg.","4","85","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 09:30:00"
+"","","","","","","","cmp016_linea02","[QMM0029] Cinta de empaque 48 mm x 100 m","[QMM0029] Cinta de empaque 48 mm x 100 m
+Rollo para cierre de cajas de traslado entre sucursales.
+Unidad de compra: 1 rollo de cinta de 100 m.","12","14","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 09:30:00"
+"cmp017","QMGT-MAT-017","2026-08-24 08:25:00","Etiquetas y Señalización Maya, S.A.","GTQ","QM Guatemala: Recepciones","2026-08-26 11:15:00","cmp017_linea01","[QMM0030] Señal de piso mojado plegable","[QMM0030] Señal de piso mojado plegable
+Señal preventiva para áreas de limpieza.
+Unidad de compra: 1 unidad.","2","75","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-26 11:15:00"
+"cmp018","QMGT-MAT-018","2026-08-24 10:30:00","Textiles y Uniformes del Quetzal, S.A.","GTQ","QM Guatemala: Recepciones","2026-08-27 13:30:00","cmp018_linea01","[QMM0031] Camisa polo para personal de caja, talla M","[QMM0031] Camisa polo para personal de caja, talla M
+Camisa azul para uniforme del personal de atención.
+Unidad de compra: 1 unidad.","4","85","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-27 13:30:00"
+"","","","","","","","cmp018_linea02","[QMM0032] Camisa polo para personal de caja, talla L","[QMM0032] Camisa polo para personal de caja, talla L
+Camisa azul para uniforme del personal de atención.
+Unidad de compra: 1 unidad.","4","85","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-27 13:30:00"
+"","","","","","","","cmp018_linea03","[QMM0033] Camisa polo para personal de caja, talla XL","[QMM0033] Camisa polo para personal de caja, talla XL
+Camisa azul para uniforme del personal de atención.
+Unidad de compra: 1 unidad.","2","90","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-27 13:30:00"
+"","","","","","","","cmp018_linea04","[QMM0035] Delantal de trabajo ajustable","[QMM0035] Delantal de trabajo ajustable
+Delantal resistente para personal de limpieza y apoyo.
+Unidad de compra: 1 unidad.","4","45","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-27 13:30:00"
+"cmp019","QMGT-MAT-019","2026-08-24 12:05:00","Seguridad Industrial Cuzcatlán, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-04 09:15:00","cmp019_linea01","[QMM0034] Chaleco reflectivo para bodega, talla L","[QMM0034] Chaleco reflectivo para bodega, talla L
+Chaleco de alta visibilidad para recepción y bodega.
+Unidad de compra: 1 unidad.","4","65","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 09:15:00"
+"","","","","","","","cmp019_linea02","[QMM0037] Guantes de trabajo antideslizantes, par","[QMM0037] Guantes de trabajo antideslizantes, par
+Par de guantes con recubrimiento para sujetar cajas en bodega.
+Unidad de compra: 1 par de guantes.","6","28","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 09:15:00"
+"","","","","","","","cmp019_linea03","[QMM0038] Botas de seguridad punta de acero, talla 40","[QMM0038] Botas de seguridad punta de acero, talla 40
+Par de botas para personal de recepción y bodega.
+Unidad de compra: 1 par de botas.","4","295","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 09:15:00"
+"","","","","","","","cmp019_linea04","[QMM0039] Lentes de protección transparentes","[QMM0039] Lentes de protección transparentes
+Lentes para tareas de mantenimiento de sucursales.
+Unidad de compra: 1 unidad.","4","25","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 09:15:00"
+"","","","","","","","cmp019_linea05","[QMM0040] Faja ajustable para bodega, talla L","[QMM0040] Faja ajustable para bodega, talla L
+Faja de trabajo para uso del personal de bodega.
+Unidad de compra: 1 unidad.","4","95","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 09:15:00"
+"cmp020","QMGT-MAT-020","2026-08-25 14:10:00","Seguridad Industrial Cuzcatlán, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-03 11:30:00","cmp020_linea01","[QMM0036] Guantes desechables para limpieza, talla M, caja 100","[QMM0036] Guantes desechables para limpieza, talla M, caja 100
+Caja de 100 guantes de nitrilo para tareas de limpieza.
+Unidad de compra: 1 caja de 100 guantes.","4","55","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 11:30:00"
+"cmp021","QMGT-MAT-021","2026-08-25 08:15:00","Limpieza Total Centroamérica, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-04 13:15:00","cmp021_linea01","[QMM0041] Detergente líquido para pisos 5 L","[QMM0041] Detergente líquido para pisos 5 L
+Envase para limpieza de pisos de la sucursal.
+Unidad de compra: 1 envase de 5 L.","4","68","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 13:15:00"
+"","","","","","","","cmp021_linea02","[QMM0042] Desinfectante concentrado 5 L","[QMM0042] Desinfectante concentrado 5 L
+Envase para limpieza de superficies de la sucursal.
+Unidad de compra: 1 envase de 5 L.","4","82","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 13:15:00"
+"","","","","","","","cmp021_linea03","[QMM0043] Cloro de limpieza 5 L","[QMM0043] Cloro de limpieza 5 L
+Envase de 5 litros para tareas de limpieza de la sucursal.
+Unidad de compra: 1 envase de 5 L.","4","38","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 13:15:00"
+"cmp022","QMGT-MAT-022","2026-08-25 10:20:00","Limpieza Total Centroamérica, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-07 09:30:00","cmp022_linea01","[QMM0044] Desengrasante industrial 5 L","[QMM0044] Desengrasante industrial 5 L
+Envase para limpieza de superficies de trabajo.
+Unidad de compra: 1 envase de 5 L.","2","95","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 09:30:00"
+"","","","","","","","cmp022_linea02","[QMM0045] Limpiavidrios 5 L","[QMM0045] Limpiavidrios 5 L
+Envase de 5 litros para limpiar vitrinas y ventanas.
+Unidad de compra: 1 envase de 5 L.","2","62","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 09:30:00"
+"","","","","","","","cmp022_linea03","[QMM0046] Jabón líquido para dispensador 5 L","[QMM0046] Jabón líquido para dispensador 5 L
+Envase de recarga para lavamanos del personal y clientes.
+Unidad de compra: 1 envase de 5 L.","4","75","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 09:30:00"
+"cmp023","QMGT-MAT-023","2026-08-26 12:25:00","Limpieza Total Centroamérica, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-04 11:15:00","cmp023_linea01","[QMM0047] Escoba industrial de cerdas rígidas","[QMM0047] Escoba industrial de cerdas rígidas
+Escoba de 40 cm para limpieza de áreas de bodega.
+Unidad de compra: 1 unidad.","2","48","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 11:15:00"
+"","","","","","","","cmp023_linea02","[QMM0048] Trapeador de algodón con mango","[QMM0048] Trapeador de algodón con mango
+Trapeador con cabezal de algodón de 500 g para limpiar pisos.
+Unidad de compra: 1 unidad.","2","58","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 11:15:00"
+"","","","","","","","cmp023_linea03","[QMM0049] Cubeta con escurridor para trapeador 20 L","[QMM0049] Cubeta con escurridor para trapeador 20 L
+Cubeta de 20 litros con escurridor para limpieza de pisos.
+Unidad de compra: 1 unidad.","1","245","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 11:15:00"
+"","","","","","","","cmp023_linea04","[QMM0050] Paños de microfibra, paquete 12","[QMM0050] Paños de microfibra, paquete 12
+Paquete para limpieza de cajas, estantes y superficies.
+Unidad de compra: 1 paquete de 12 paños.","2","55","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 11:15:00"
+"cmp024","QMGT-MAT-024","2026-08-26 14:30:00","Ferretería Comercial del Norte, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-07 13:30:00","cmp024_linea01","[QMM0051] Taladro eléctrico 650 W","[QMM0051] Taladro eléctrico 650 W
+Taladro para instalar y reparar muebles y accesorios.
+Unidad de compra: 1 unidad.","1","480","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 13:30:00"
+"","","","","","","","cmp024_linea02","[QMM0052] Juego de destornilladores, 6 piezas","[QMM0052] Juego de destornilladores, 6 piezas
+Juego para mantenimiento de equipos y mobiliario.
+Unidad de compra: 1 juego de 6 destornilladores.","1","75","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 13:30:00"
+"cmp025","QMGT-MAT-025","2026-08-26 08:05:00","Herramientas y Mantenimiento del Valle, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-08 09:15:00","cmp025_linea01","[QMM0053] Llave ajustable de 10 pulgadas","[QMM0053] Llave ajustable de 10 pulgadas
+Herramienta para reparaciones y ajustes en la sucursal.
+Unidad de compra: 1 unidad.","1","58","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 09:15:00"
+"","","","","","","","cmp025_linea02","[QMM0054] Martillo de uña de 16 onzas","[QMM0054] Martillo de uña de 16 onzas
+Herramienta para mantenimiento general.
+Unidad de compra: 1 unidad.","1","45","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 09:15:00"
+"","","","","","","","cmp025_linea03","[QMM0055] Cinta métrica de 5 m","[QMM0055] Cinta métrica de 5 m
+Herramienta para medición de espacios y mobiliario.
+Unidad de compra: 1 unidad.","1","32","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 09:15:00"
+"cmp026","QMGT-MAT-026","2026-08-27 10:10:00","Ferretería Comercial del Norte, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-14 11:30:00","cmp026_linea01","[QMM0056] Escalera de aluminio de 6 escalones","[QMM0056] Escalera de aluminio de 6 escalones
+Escalera para reponer productos y realizar mantenimiento.
+Unidad de compra: 1 unidad.","1","650","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-14 11:30:00"
+"","","","","","","","cmp026_linea02","[QMM0057] Tornillos y tarugos 6 mm, paquete 100 pares","[QMM0057] Tornillos y tarugos 6 mm, paquete 100 pares
+Tornillos y tarugos plásticos de 6 mm para fijar accesorios y señales a la pared.
+Unidad de compra: 1 paquete de 100 tornillos y 100 tarugos.","2","42","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-14 11:30:00"
+"cmp027","QMGT-MAT-027","2026-08-27 12:15:00","Ferretería Comercial del Norte, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-08 13:15:00","cmp027_linea01","[QMM0058] Bombillo LED 18 W","[QMM0058] Bombillo LED 18 W
+Bombillo de repuesto para iluminación de áreas de trabajo.
+Unidad de compra: 1 unidad.","6","38","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 13:15:00"
+"","","","","","","","cmp027_linea02","[QMM0059] Extensión eléctrica de trabajo 10 m","[QMM0059] Extensión eléctrica de trabajo 10 m
+Extensión para equipos de mantenimiento.
+Unidad de compra: 1 unidad.","2","125","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 13:15:00"
+"","","","","","","","cmp027_linea03","[QMM0060] Multitoma eléctrica con protección, 6 enchufes","[QMM0060] Multitoma eléctrica con protección, 6 enchufes
+Multitoma para conectar equipos del área de caja.
+Unidad de compra: 1 unidad.","2","85","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 13:15:00"
+"cmp028","QMGT-MAT-028","2026-09-07 14:20:00","Suministros Comerciales Quetzal, S.A.","GTQ","QM Guatemala: Recepciones","2026-09-11 09:30:00","cmp028_linea01","[QMM0021] Papel térmico para caja 80 x 80 mm","[QMM0021] Papel térmico para caja 80 x 80 mm
+Rollo para impresión de recibos en cajas.
+Unidad de compra: 1 rollo de papel térmico de 80 x 80 mm.","12","12.5","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-11 09:30:00"
+"","","","","","","","cmp028_linea02","[QMM0022] Papel térmico para pago con tarjeta 57 x 40 mm","[QMM0022] Papel térmico para pago con tarjeta 57 x 40 mm
+Papel térmico para imprimir comprobantes en terminales de pago con tarjeta.
+Unidad de compra: 1 rollo de papel térmico de 57 x 40 mm.","15","4.5","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-11 09:30:00"
+"cmp029","QMGT-MAT-029","2026-09-08 08:25:00","Empaques y Plásticos del Norte, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-17 11:15:00","cmp029_linea01","[QMM0026] Bolsas biodegradables medianas, paquete 100","[QMM0026] Bolsas biodegradables medianas, paquete 100
+Paquete para empaque de compras en caja.
+Unidad de compra: 1 paquete de 100 bolsas.","5","38","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-17 11:15:00"
+"","","","","","","","cmp029_linea02","[QMM0027] Bolsas biodegradables grandes, paquete 100","[QMM0027] Bolsas biodegradables grandes, paquete 100
+Paquete para empaque de compras voluminosas en caja.
+Unidad de compra: 1 paquete de 100 bolsas.","4","58","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-17 11:15:00"
+"cmp030","QMGT-MAT-030","2026-09-09 10:30:00","Limpieza Total Centroamérica, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-21 13:30:00","cmp030_linea01","[QMM0041] Detergente líquido para pisos 5 L","[QMM0041] Detergente líquido para pisos 5 L
+Envase para limpieza de pisos de la sucursal.
+Unidad de compra: 1 envase de 5 L.","2","68","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-21 13:30:00"
+"","","","","","","","cmp030_linea02","[QMM0042] Desinfectante concentrado 5 L","[QMM0042] Desinfectante concentrado 5 L
+Envase para limpieza de superficies de la sucursal.
+Unidad de compra: 1 envase de 5 L.","2","82","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-21 13:30:00"
+"cmp031","QMGT-MAT-031","2026-09-10 12:05:00","Etiquetas y Señalización Maya, S.A.","GTQ","QM Guatemala: Recepciones","2026-09-16 09:15:00","cmp031_linea01","[QMM0023] Etiquetas adhesivas 50 x 30 mm, rollo 1000 unidades","[QMM0023] Etiquetas adhesivas 50 x 30 mm, rollo 1000 unidades
+Rollo de 1000 etiquetas para identificar precios y materiales.
+Unidad de compra: 1 rollo de 1000 etiquetas.","2","45","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-16 09:15:00"
+"","","","","","","","cmp031_linea02","[QMM0025] Etiquetas de precio para estantes, paquete 100","[QMM0025] Etiquetas de precio para estantes, paquete 100
+Paquete de 100 tarjetas de cartulina para mostrar precios.
+Unidad de compra: 1 paquete de 100 tarjetas de precio.","2","15","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-16 09:15:00"
+"cmp032","QMGT-MAT-032","2026-09-11 14:10:00","Seguridad Industrial Cuzcatlán, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-22 11:30:00","cmp032_linea01","[QMM0036] Guantes desechables para limpieza, talla M, caja 100","[QMM0036] Guantes desechables para limpieza, talla M, caja 100
+Caja de 100 guantes de nitrilo para tareas de limpieza.
+Unidad de compra: 1 caja de 100 guantes.","2","55","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-22 11:30:00"
+"","","","","","","","cmp032_linea02","[QMM0037] Guantes de trabajo antideslizantes, par","[QMM0037] Guantes de trabajo antideslizantes, par
+Par de guantes con recubrimiento para sujetar cajas en bodega.
+Unidad de compra: 1 par de guantes.","3","28","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-22 11:30:00"
+"cmp033","QMGT-MAT-033","2026-09-14 08:15:00","Limpieza Total Centroamérica, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-24 13:15:00","cmp033_linea01","[QMM0043] Cloro de limpieza 5 L","[QMM0043] Cloro de limpieza 5 L
+Envase de 5 litros para tareas de limpieza de la sucursal.
+Unidad de compra: 1 envase de 5 L.","2","38","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-24 13:15:00"
+"","","","","","","","cmp033_linea02","[QMM0046] Jabón líquido para dispensador 5 L","[QMM0046] Jabón líquido para dispensador 5 L
+Envase de recarga para lavamanos del personal y clientes.
+Unidad de compra: 1 envase de 5 L.","2","75","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-24 13:15:00"
+"","","","","","","","cmp033_linea03","[QMM0050] Paños de microfibra, paquete 12","[QMM0050] Paños de microfibra, paquete 12
+Paquete para limpieza de cajas, estantes y superficies.
+Unidad de compra: 1 paquete de 12 paños.","1","55","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-24 13:15:00"
+"cmp034","QMGT-MAT-034","2026-09-15 10:20:00","Herramientas y Mantenimiento del Valle, S.A. de C.V.","GTQ","QM Guatemala: Recepciones","2026-09-28 09:30:00","cmp034_linea01","[QMM0029] Cinta de empaque 48 mm x 100 m","[QMM0029] Cinta de empaque 48 mm x 100 m
+Rollo para cierre de cajas de traslado entre sucursales.
+Unidad de compra: 1 rollo de cinta de 100 m.","6","14","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-28 09:30:00"
+"","","","","","","","cmp034_linea02","[QMM0057] Tornillos y tarugos 6 mm, paquete 100 pares","[QMM0057] Tornillos y tarugos 6 mm, paquete 100 pares
+Tornillos y tarugos plásticos de 6 mm para fijar accesorios y señales a la pared.
+Unidad de compra: 1 paquete de 100 tornillos y 100 tarugos.","1","42","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-28 09:30:00"
+"cmp035","QMMX-MAT-035","2026-08-19 12:30:00","Estanterías y Mobiliario Centroamericano, S.A.","GTQ","QM México: Recepciones","2026-09-04 11:15:00","cmp035_linea01","[QMM0001] Estantería metálica de bodega 5 niveles","[QMM0001] Estantería metálica de bodega 5 niveles
+Estructura de 180 x 90 x 40 cm para almacenamiento de insumos.
+Unidad de compra: 1 unidad.","2","1250","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 11:15:00"
+"","","","","","","","cmp035_linea02","[QMM0002] Estantería central de doble cara","[QMM0002] Estantería central de doble cara
+Estantería de 180 x 100 cm para colocar productos a ambos lados del pasillo.
+Unidad de compra: 1 unidad.","2","2850","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 11:15:00"
+"cmp036","QMMX-MAT-036","2026-08-19 14:05:00","Estanterías y Mobiliario Centroamericano, S.A.","GTQ","QM México: Recepciones","2026-09-07 13:30:00","cmp036_linea01","[QMM0003] Estante de pared 4 niveles","[QMM0003] Estante de pared 4 niveles
+Estante de 180 x 90 cm para colocar productos junto a una pared.
+Unidad de compra: 1 unidad.","3","1650","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 13:30:00"
+"cmp037","QMMX-MAT-037","2026-08-19 08:10:00","Equipamiento Comercial del Altiplano, S.A.","GTQ","QM México: Recepciones","2026-09-08 09:15:00","cmp037_linea01","[QMM0004] Mostrador para caja con cajón","[QMM0004] Mostrador para caja con cajón
+Mostrador de 120 cm para el área de cobro.
+Unidad de compra: 1 unidad.","3","2200","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 09:15:00"
+"","","","","","","","cmp037_linea02","[QMM0008] Silla ajustable para caja","[QMM0008] Silla ajustable para caja
+Silla de altura ajustable para el personal de caja.
+Unidad de compra: 1 unidad.","3","480","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 09:15:00"
+"cmp038","QMMX-MAT-038","2026-08-20 10:15:00","Estanterías y Mobiliario Centroamericano, S.A.","GTQ","QM México: Recepciones","2026-09-07 11:30:00","cmp038_linea01","[QMM0005] Mesa de acero para recepción de mercancía","[QMM0005] Mesa de acero para recepción de mercancía
+Mesa de 150 x 70 cm para revisión de mercancía recibida.
+Unidad de compra: 1 unidad.","1","1450","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 11:30:00"
+"","","","","","","","cmp038_linea02","[QMM0006] Gabinete metálico de almacenamiento","[QMM0006] Gabinete metálico de almacenamiento
+Gabinete de dos puertas con cerradura para insumos.
+Unidad de compra: 1 unidad.","2","1180","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 11:30:00"
+"cmp039","QMMX-MAT-039","2026-08-20 12:20:00","Estanterías y Mobiliario Centroamericano, S.A.","GTQ","QM México: Recepciones","2026-09-08 13:15:00","cmp039_linea01","[QMM0007] Casillero metálico de 6 compartimientos","[QMM0007] Casillero metálico de 6 compartimientos
+Casillero con puertas para guardar pertenencias del personal.
+Unidad de compra: 1 unidad.","1","1850","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 13:15:00"
+"cmp040","QMMX-MAT-040","2026-08-20 14:25:00","Empaques y Plásticos del Norte, S.A. de C.V.","GTQ","QM México: Recepciones","2026-08-26 09:30:00","cmp040_linea01","[QMM0009] Tarima plástica industrial 120 x 100 cm","[QMM0009] Tarima plástica industrial 120 x 100 cm
+Tarima reutilizable para almacenamiento en bodega.
+Unidad de compra: 1 unidad.","6","420","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-26 09:30:00"
+"","","","","","","","cmp040_linea02","[QMM0010] Caja plástica apilable 60 L","[QMM0010] Caja plástica apilable 60 L
+Caja reforzada para organizar materiales en bodega.
+Unidad de compra: 1 unidad.","8","165","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-26 09:30:00"
+"cmp041","QMMX-MAT-041","2026-08-21 08:30:00","Carritos y Canastas del Istmo, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-08 11:15:00","cmp041_linea01","[QMM0011] Carrito de supermercado 100 L","[QMM0011] Carrito de supermercado 100 L
+Carrito metálico con asiento infantil para uso de clientes.
+Unidad de compra: 1 unidad.","10","1350","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 11:15:00"
+"cmp042","QMMX-MAT-042","2026-08-21 10:05:00","Carritos y Canastas del Istmo, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-09 13:30:00","cmp042_linea01","[QMM0012] Canasta de compras con asas 28 L","[QMM0012] Canasta de compras con asas 28 L
+Canasta plástica para uso de clientes dentro de la tienda.
+Unidad de compra: 1 unidad.","30","85","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-09 13:30:00"
+"","","","","","","","cmp042_linea02","[QMM0013] Canasta de compras con ruedas 45 L","[QMM0013] Canasta de compras con ruedas 45 L
+Canasta plástica de arrastre para uso en pasillos.
+Unidad de compra: 1 unidad.","8","210","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-09 13:30:00"
+"cmp043","QMMX-MAT-043","2026-08-21 12:10:00","Ferretería Comercial del Norte, S.A. de C.V.","GTQ","QM México: Recepciones","2026-08-31 09:15:00","cmp043_linea01","[QMM0014] Carretilla de carga plegable 150 kg","[QMM0014] Carretilla de carga plegable 150 kg
+Carretilla manual para traslado de cajas.
+Unidad de compra: 1 unidad.","2","620","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-31 09:15:00"
+"","","","","","","","cmp043_linea02","[QMM0015] Carro de plataforma para bodega 300 kg","[QMM0015] Carro de plataforma para bodega 300 kg
+Carro de cuatro ruedas para traslado interno de mercancía.
+Unidad de compra: 1 unidad.","2","1150","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-31 09:15:00"
+"cmp044","QMMX-MAT-044","2026-08-24 14:15:00","Ferretería Comercial del Norte, S.A. de C.V.","GTQ","QM México: Recepciones","2026-08-28 11:30:00","cmp044_linea01","[QMM0016] Carro hidráulico para tarimas 2500 kg","[QMM0016] Carro hidráulico para tarimas 2500 kg
+Carro manual con elevación hidráulica para mover tarimas en bodega.
+Unidad de compra: 1 unidad.","1","3450","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-28 11:30:00"
+"cmp045","QMMX-MAT-045","2026-08-24 08:20:00","Carritos y Canastas del Istmo, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-03 13:15:00","cmp045_linea01","[QMM0017] Rueda giratoria para carrito 100 mm","[QMM0017] Rueda giratoria para carrito 100 mm
+Rueda de repuesto para mantenimiento de carritos.
+Unidad de compra: 1 unidad.","12","48","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 13:15:00"
+"","","","","","","","cmp045_linea02","[QMM0018] Rueda fija para carrito 100 mm","[QMM0018] Rueda fija para carrito 100 mm
+Rueda de repuesto para mantenimiento de carritos.
+Unidad de compra: 1 unidad.","12","42","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 13:15:00"
+"","","","","","","","cmp045_linea03","[QMM0019] Asa de repuesto para canasta 28 L","[QMM0019] Asa de repuesto para canasta 28 L
+Asa plástica compatible con las canastas de compras.
+Unidad de compra: 1 unidad.","10","18","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 13:15:00"
+"","","","","","","","cmp045_linea04","[QMM0020] Protector plástico para carrito 100 L","[QMM0020] Protector plástico para carrito 100 L
+Banda plástica de repuesto para proteger los bordes del carrito.
+Unidad de compra: 1 unidad.","10","35","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 13:15:00"
+"cmp046","QMMX-MAT-046","2026-08-24 10:25:00","Papelería y Consumibles Azteca, S.A. de C.V.","GTQ","QM México: Recepciones","2026-08-28 09:30:00","cmp046_linea01","[QMM0021] Papel térmico para caja 80 x 80 mm","[QMM0021] Papel térmico para caja 80 x 80 mm
+Rollo para impresión de recibos en cajas.
+Unidad de compra: 1 rollo de papel térmico de 80 x 80 mm.","36","12.5","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-28 09:30:00"
+"","","","","","","","cmp046_linea02","[QMM0022] Papel térmico para pago con tarjeta 57 x 40 mm","[QMM0022] Papel térmico para pago con tarjeta 57 x 40 mm
+Papel térmico para imprimir comprobantes en terminales de pago con tarjeta.
+Unidad de compra: 1 rollo de papel térmico de 57 x 40 mm.","40","4.5","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-28 09:30:00"
+"cmp047","QMMX-MAT-047","2026-08-25 12:30:00","Etiquetas y Señalización Maya, S.A.","GTQ","QM México: Recepciones","2026-09-03 11:15:00","cmp047_linea01","[QMM0023] Etiquetas adhesivas 50 x 30 mm, rollo 1000 unidades","[QMM0023] Etiquetas adhesivas 50 x 30 mm, rollo 1000 unidades
+Rollo de 1000 etiquetas para identificar precios y materiales.
+Unidad de compra: 1 rollo de 1000 etiquetas.","4","45","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 11:15:00"
+"","","","","","","","cmp047_linea02","[QMM0024] Soporte plástico para etiquetas de precio 100 cm","[QMM0024] Soporte plástico para etiquetas de precio 100 cm
+Tira plástica transparente para sostener etiquetas de precio en estantes.
+Unidad de compra: 1 unidad.","30","22","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 11:15:00"
+"","","","","","","","cmp047_linea03","[QMM0025] Etiquetas de precio para estantes, paquete 100","[QMM0025] Etiquetas de precio para estantes, paquete 100
+Paquete de 100 tarjetas de cartulina para mostrar precios.
+Unidad de compra: 1 paquete de 100 tarjetas de precio.","6","15","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 11:15:00"
+"cmp048","QMMX-MAT-048","2026-08-25 14:05:00","Empaques y Plásticos del Norte, S.A. de C.V.","GTQ","QM México: Recepciones","2026-08-28 13:30:00","cmp048_linea01","[QMM0026] Bolsas biodegradables medianas, paquete 100","[QMM0026] Bolsas biodegradables medianas, paquete 100
+Paquete para empaque de compras en caja.
+Unidad de compra: 1 paquete de 100 bolsas.","14","38","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-28 13:30:00"
+"","","","","","","","cmp048_linea02","[QMM0027] Bolsas biodegradables grandes, paquete 100","[QMM0027] Bolsas biodegradables grandes, paquete 100
+Paquete para empaque de compras voluminosas en caja.
+Unidad de compra: 1 paquete de 100 bolsas.","10","58","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-28 13:30:00"
+"cmp049","QMMX-MAT-049","2026-08-25 08:10:00","Empaques y Plásticos del Norte, S.A. de C.V.","GTQ","QM México: Recepciones","2026-08-31 09:15:00","cmp049_linea01","[QMM0028] Plástico para envolver tarimas 50 cm, rollo 2 kg","[QMM0028] Plástico para envolver tarimas 50 cm, rollo 2 kg
+Rollo de plástico estirable para asegurar cajas sobre tarimas.
+Unidad de compra: 1 rollo de plástico de 2 kg.","6","85","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-31 09:15:00"
+"","","","","","","","cmp049_linea02","[QMM0029] Cinta de empaque 48 mm x 100 m","[QMM0029] Cinta de empaque 48 mm x 100 m
+Rollo para cierre de cajas de traslado entre sucursales.
+Unidad de compra: 1 rollo de cinta de 100 m.","18","14","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-31 09:15:00"
+"cmp050","QMMX-MAT-050","2026-08-26 10:15:00","Etiquetas y Señalización Maya, S.A.","GTQ","QM México: Recepciones","2026-09-04 11:30:00","cmp050_linea01","[QMM0030] Señal de piso mojado plegable","[QMM0030] Señal de piso mojado plegable
+Señal preventiva para áreas de limpieza.
+Unidad de compra: 1 unidad.","3","75","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 11:30:00"
+"cmp051","QMMX-MAT-051","2026-08-26 12:20:00","Textiles y Uniformes del Quetzal, S.A.","GTQ","QM México: Recepciones","2026-09-07 13:15:00","cmp051_linea01","[QMM0031] Camisa polo para personal de caja, talla M","[QMM0031] Camisa polo para personal de caja, talla M
+Camisa azul para uniforme del personal de atención.
+Unidad de compra: 1 unidad.","5","85","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 13:15:00"
+"","","","","","","","cmp051_linea02","[QMM0032] Camisa polo para personal de caja, talla L","[QMM0032] Camisa polo para personal de caja, talla L
+Camisa azul para uniforme del personal de atención.
+Unidad de compra: 1 unidad.","6","85","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 13:15:00"
+"","","","","","","","cmp051_linea03","[QMM0033] Camisa polo para personal de caja, talla XL","[QMM0033] Camisa polo para personal de caja, talla XL
+Camisa azul para uniforme del personal de atención.
+Unidad de compra: 1 unidad.","3","90","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 13:15:00"
+"","","","","","","","cmp051_linea04","[QMM0035] Delantal de trabajo ajustable","[QMM0035] Delantal de trabajo ajustable
+Delantal resistente para personal de limpieza y apoyo.
+Unidad de compra: 1 unidad.","5","45","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 13:15:00"
+"cmp052","QMMX-MAT-052","2026-08-26 14:25:00","Seguridad Industrial Cuzcatlán, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-08 09:30:00","cmp052_linea01","[QMM0034] Chaleco reflectivo para bodega, talla L","[QMM0034] Chaleco reflectivo para bodega, talla L
+Chaleco de alta visibilidad para recepción y bodega.
+Unidad de compra: 1 unidad.","6","65","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 09:30:00"
+"","","","","","","","cmp052_linea02","[QMM0037] Guantes de trabajo antideslizantes, par","[QMM0037] Guantes de trabajo antideslizantes, par
+Par de guantes con recubrimiento para sujetar cajas en bodega.
+Unidad de compra: 1 par de guantes.","8","28","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 09:30:00"
+"","","","","","","","cmp052_linea03","[QMM0038] Botas de seguridad punta de acero, talla 40","[QMM0038] Botas de seguridad punta de acero, talla 40
+Par de botas para personal de recepción y bodega.
+Unidad de compra: 1 par de botas.","6","295","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 09:30:00"
+"","","","","","","","cmp052_linea04","[QMM0039] Lentes de protección transparentes","[QMM0039] Lentes de protección transparentes
+Lentes para tareas de mantenimiento de sucursales.
+Unidad de compra: 1 unidad.","6","25","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 09:30:00"
+"","","","","","","","cmp052_linea05","[QMM0040] Faja ajustable para bodega, talla L","[QMM0040] Faja ajustable para bodega, talla L
+Faja de trabajo para uso del personal de bodega.
+Unidad de compra: 1 unidad.","6","95","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 09:30:00"
+"cmp053","QMMX-MAT-053","2026-08-27 08:30:00","Seguridad Industrial Cuzcatlán, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-07 11:15:00","cmp053_linea01","[QMM0036] Guantes desechables para limpieza, talla M, caja 100","[QMM0036] Guantes desechables para limpieza, talla M, caja 100
+Caja de 100 guantes de nitrilo para tareas de limpieza.
+Unidad de compra: 1 caja de 100 guantes.","6","55","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 11:15:00"
+"cmp054","QMMX-MAT-054","2026-08-27 10:05:00","Limpieza Total Centroamérica, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-08 13:30:00","cmp054_linea01","[QMM0041] Detergente líquido para pisos 5 L","[QMM0041] Detergente líquido para pisos 5 L
+Envase para limpieza de pisos de la sucursal.
+Unidad de compra: 1 envase de 5 L.","6","68","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 13:30:00"
+"","","","","","","","cmp054_linea02","[QMM0042] Desinfectante concentrado 5 L","[QMM0042] Desinfectante concentrado 5 L
+Envase para limpieza de superficies de la sucursal.
+Unidad de compra: 1 envase de 5 L.","5","82","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 13:30:00"
+"","","","","","","","cmp054_linea03","[QMM0043] Cloro de limpieza 5 L","[QMM0043] Cloro de limpieza 5 L
+Envase de 5 litros para tareas de limpieza de la sucursal.
+Unidad de compra: 1 envase de 5 L.","6","38","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 13:30:00"
+"cmp055","QMMX-MAT-055","2026-08-27 12:10:00","Limpieza Total Centroamérica, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-09 09:15:00","cmp055_linea01","[QMM0044] Desengrasante industrial 5 L","[QMM0044] Desengrasante industrial 5 L
+Envase para limpieza de superficies de trabajo.
+Unidad de compra: 1 envase de 5 L.","3","95","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-09 09:15:00"
+"","","","","","","","cmp055_linea02","[QMM0045] Limpiavidrios 5 L","[QMM0045] Limpiavidrios 5 L
+Envase de 5 litros para limpiar vitrinas y ventanas.
+Unidad de compra: 1 envase de 5 L.","3","62","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-09 09:15:00"
+"","","","","","","","cmp055_linea03","[QMM0046] Jabón líquido para dispensador 5 L","[QMM0046] Jabón líquido para dispensador 5 L
+Envase de recarga para lavamanos del personal y clientes.
+Unidad de compra: 1 envase de 5 L.","6","75","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-09 09:15:00"
+"cmp056","QMMX-MAT-056","2026-08-28 14:15:00","Limpieza Total Centroamérica, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-08 11:30:00","cmp056_linea01","[QMM0047] Escoba industrial de cerdas rígidas","[QMM0047] Escoba industrial de cerdas rígidas
+Escoba de 40 cm para limpieza de áreas de bodega.
+Unidad de compra: 1 unidad.","3","48","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 11:30:00"
+"","","","","","","","cmp056_linea02","[QMM0048] Trapeador de algodón con mango","[QMM0048] Trapeador de algodón con mango
+Trapeador con cabezal de algodón de 500 g para limpiar pisos.
+Unidad de compra: 1 unidad.","3","58","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 11:30:00"
+"","","","","","","","cmp056_linea03","[QMM0049] Cubeta con escurridor para trapeador 20 L","[QMM0049] Cubeta con escurridor para trapeador 20 L
+Cubeta de 20 litros con escurridor para limpieza de pisos.
+Unidad de compra: 1 unidad.","2","245","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 11:30:00"
+"","","","","","","","cmp056_linea04","[QMM0050] Paños de microfibra, paquete 12","[QMM0050] Paños de microfibra, paquete 12
+Paquete para limpieza de cajas, estantes y superficies.
+Unidad de compra: 1 paquete de 12 paños.","3","55","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 11:30:00"
+"cmp057","QMMX-MAT-057","2026-08-28 08:20:00","Ferretería Comercial del Norte, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-02 13:15:00","cmp057_linea01","[QMM0051] Taladro eléctrico 650 W","[QMM0051] Taladro eléctrico 650 W
+Taladro para instalar y reparar muebles y accesorios.
+Unidad de compra: 1 unidad.","1","480","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-02 13:15:00"
+"","","","","","","","cmp057_linea02","[QMM0052] Juego de destornilladores, 6 piezas","[QMM0052] Juego de destornilladores, 6 piezas
+Juego para mantenimiento de equipos y mobiliario.
+Unidad de compra: 1 juego de 6 destornilladores.","2","75","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-02 13:15:00"
+"cmp058","QMMX-MAT-058","2026-08-28 10:25:00","Herramientas y Mantenimiento del Valle, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-03 09:30:00","cmp058_linea01","[QMM0053] Llave ajustable de 10 pulgadas","[QMM0053] Llave ajustable de 10 pulgadas
+Herramienta para reparaciones y ajustes en la sucursal.
+Unidad de compra: 1 unidad.","2","58","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 09:30:00"
+"","","","","","","","cmp058_linea02","[QMM0054] Martillo de uña de 16 onzas","[QMM0054] Martillo de uña de 16 onzas
+Herramienta para mantenimiento general.
+Unidad de compra: 1 unidad.","2","45","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 09:30:00"
+"","","","","","","","cmp058_linea03","[QMM0055] Cinta métrica de 5 m","[QMM0055] Cinta métrica de 5 m
+Herramienta para medición de espacios y mobiliario.
+Unidad de compra: 1 unidad.","2","32","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 09:30:00"
+"cmp059","QMMX-MAT-059","2026-08-31 12:30:00","Ferretería Comercial del Norte, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-04 11:15:00","cmp059_linea01","[QMM0056] Escalera de aluminio de 6 escalones","[QMM0056] Escalera de aluminio de 6 escalones
+Escalera para reponer productos y realizar mantenimiento.
+Unidad de compra: 1 unidad.","1","650","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 11:15:00"
+"","","","","","","","cmp059_linea02","[QMM0057] Tornillos y tarugos 6 mm, paquete 100 pares","[QMM0057] Tornillos y tarugos 6 mm, paquete 100 pares
+Tornillos y tarugos plásticos de 6 mm para fijar accesorios y señales a la pared.
+Unidad de compra: 1 paquete de 100 tornillos y 100 tarugos.","3","42","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 11:15:00"
+"cmp060","QMMX-MAT-060","2026-08-31 14:05:00","Ferretería Comercial del Norte, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-03 13:30:00","cmp060_linea01","[QMM0058] Bombillo LED 18 W","[QMM0058] Bombillo LED 18 W
+Bombillo de repuesto para iluminación de áreas de trabajo.
+Unidad de compra: 1 unidad.","10","38","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 13:30:00"
+"","","","","","","","cmp060_linea02","[QMM0059] Extensión eléctrica de trabajo 10 m","[QMM0059] Extensión eléctrica de trabajo 10 m
+Extensión para equipos de mantenimiento.
+Unidad de compra: 1 unidad.","3","125","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 13:30:00"
+"","","","","","","","cmp060_linea03","[QMM0060] Multitoma eléctrica con protección, 6 enchufes","[QMM0060] Multitoma eléctrica con protección, 6 enchufes
+Multitoma para conectar equipos del área de caja.
+Unidad de compra: 1 unidad.","3","85","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 13:30:00"
+"cmp061","QMMX-MAT-061","2026-09-09 08:10:00","Suministros Comerciales Quetzal, S.A.","GTQ","QM México: Recepciones","2026-09-22 09:15:00","cmp061_linea01","[QMM0021] Papel térmico para caja 80 x 80 mm","[QMM0021] Papel térmico para caja 80 x 80 mm
+Rollo para impresión de recibos en cajas.
+Unidad de compra: 1 rollo de papel térmico de 80 x 80 mm.","14","12.5","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-22 09:15:00"
+"","","","","","","","cmp061_linea02","[QMM0022] Papel térmico para pago con tarjeta 57 x 40 mm","[QMM0022] Papel térmico para pago con tarjeta 57 x 40 mm
+Papel térmico para imprimir comprobantes en terminales de pago con tarjeta.
+Unidad de compra: 1 rollo de papel térmico de 57 x 40 mm.","16","4.5","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-22 09:15:00"
+"cmp062","QMMX-MAT-062","2026-09-10 10:15:00","Empaques y Plásticos del Norte, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-14 11:30:00","cmp062_linea01","[QMM0026] Bolsas biodegradables medianas, paquete 100","[QMM0026] Bolsas biodegradables medianas, paquete 100
+Paquete para empaque de compras en caja.
+Unidad de compra: 1 paquete de 100 bolsas.","6","38","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-14 11:30:00"
+"","","","","","","","cmp062_linea02","[QMM0027] Bolsas biodegradables grandes, paquete 100","[QMM0027] Bolsas biodegradables grandes, paquete 100
+Paquete para empaque de compras voluminosas en caja.
+Unidad de compra: 1 paquete de 100 bolsas.","4","58","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-14 11:30:00"
+"cmp063","QMMX-MAT-063","2026-09-11 12:20:00","Limpieza Total Centroamérica, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-23 13:15:00","cmp063_linea01","[QMM0041] Detergente líquido para pisos 5 L","[QMM0041] Detergente líquido para pisos 5 L
+Envase para limpieza de pisos de la sucursal.
+Unidad de compra: 1 envase de 5 L.","2","68","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-23 13:15:00"
+"","","","","","","","cmp063_linea02","[QMM0042] Desinfectante concentrado 5 L","[QMM0042] Desinfectante concentrado 5 L
+Envase para limpieza de superficies de la sucursal.
+Unidad de compra: 1 envase de 5 L.","2","82","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-23 13:15:00"
+"cmp064","QMMX-MAT-064","2026-09-14 14:25:00","Etiquetas y Señalización Maya, S.A.","GTQ","QM México: Recepciones","2026-09-25 09:30:00","cmp064_linea01","[QMM0023] Etiquetas adhesivas 50 x 30 mm, rollo 1000 unidades","[QMM0023] Etiquetas adhesivas 50 x 30 mm, rollo 1000 unidades
+Rollo de 1000 etiquetas para identificar precios y materiales.
+Unidad de compra: 1 rollo de 1000 etiquetas.","2","45","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-25 09:30:00"
+"","","","","","","","cmp064_linea02","[QMM0025] Etiquetas de precio para estantes, paquete 100","[QMM0025] Etiquetas de precio para estantes, paquete 100
+Paquete de 100 tarjetas de cartulina para mostrar precios.
+Unidad de compra: 1 paquete de 100 tarjetas de precio.","2","15","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-25 09:30:00"
+"cmp065","QMMX-MAT-065","2026-09-15 08:30:00","Seguridad Industrial Cuzcatlán, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-24 11:15:00","cmp065_linea01","[QMM0036] Guantes desechables para limpieza, talla M, caja 100","[QMM0036] Guantes desechables para limpieza, talla M, caja 100
+Caja de 100 guantes de nitrilo para tareas de limpieza.
+Unidad de compra: 1 caja de 100 guantes.","2","55","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-24 11:15:00"
+"","","","","","","","cmp065_linea02","[QMM0037] Guantes de trabajo antideslizantes, par","[QMM0037] Guantes de trabajo antideslizantes, par
+Par de guantes con recubrimiento para sujetar cajas en bodega.
+Unidad de compra: 1 par de guantes.","3","28","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-24 11:15:00"
+"cmp066","QMMX-MAT-066","2026-09-16 10:05:00","Limpieza Total Centroamérica, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-28 13:30:00","cmp066_linea01","[QMM0043] Cloro de limpieza 5 L","[QMM0043] Cloro de limpieza 5 L
+Envase de 5 litros para tareas de limpieza de la sucursal.
+Unidad de compra: 1 envase de 5 L.","2","38","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-28 13:30:00"
+"","","","","","","","cmp066_linea02","[QMM0046] Jabón líquido para dispensador 5 L","[QMM0046] Jabón líquido para dispensador 5 L
+Envase de recarga para lavamanos del personal y clientes.
+Unidad de compra: 1 envase de 5 L.","2","75","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-28 13:30:00"
+"","","","","","","","cmp066_linea03","[QMM0050] Paños de microfibra, paquete 12","[QMM0050] Paños de microfibra, paquete 12
+Paquete para limpieza de cajas, estantes y superficies.
+Unidad de compra: 1 paquete de 12 paños.","1","55","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-28 13:30:00"
+"cmp067","QMMX-MAT-067","2026-09-17 12:10:00","Herramientas y Mantenimiento del Valle, S.A. de C.V.","GTQ","QM México: Recepciones","2026-09-23 09:15:00","cmp067_linea01","[QMM0029] Cinta de empaque 48 mm x 100 m","[QMM0029] Cinta de empaque 48 mm x 100 m
+Rollo para cierre de cajas de traslado entre sucursales.
+Unidad de compra: 1 rollo de cinta de 100 m.","7","14","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-23 09:15:00"
+"","","","","","","","cmp067_linea02","[QMM0057] Tornillos y tarugos 6 mm, paquete 100 pares","[QMM0057] Tornillos y tarugos 6 mm, paquete 100 pares
+Tornillos y tarugos plásticos de 6 mm para fijar accesorios y señales a la pared.
+Unidad de compra: 1 paquete de 100 tornillos y 100 tarugos.","1","42","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-23 09:15:00"
+"cmp068","QMSV-MAT-068","2026-08-21 14:20:00","Estanterías y Mobiliario Centroamericano, S.A.","GTQ","QM El Salvador: Recepciones","2026-09-08 11:30:00","cmp068_linea01","[QMM0001] Estantería metálica de bodega 5 niveles","[QMM0001] Estantería metálica de bodega 5 niveles
+Estructura de 180 x 90 x 40 cm para almacenamiento de insumos.
+Unidad de compra: 1 unidad.","3","1250","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 11:30:00"
+"","","","","","","","cmp068_linea02","[QMM0002] Estantería central de doble cara","[QMM0002] Estantería central de doble cara
+Estantería de 180 x 100 cm para colocar productos a ambos lados del pasillo.
+Unidad de compra: 1 unidad.","1","2850","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 11:30:00"
+"cmp069","QMSV-MAT-069","2026-08-21 08:25:00","Estanterías y Mobiliario Centroamericano, S.A.","GTQ","QM El Salvador: Recepciones","2026-09-09 13:15:00","cmp069_linea01","[QMM0003] Estante de pared 4 niveles","[QMM0003] Estante de pared 4 niveles
+Estante de 180 x 90 cm para colocar productos junto a una pared.
+Unidad de compra: 1 unidad.","2","1650","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-09 13:15:00"
+"cmp070","QMSV-MAT-070","2026-08-21 10:30:00","Equipamiento Comercial del Altiplano, S.A.","GTQ","QM El Salvador: Recepciones","2026-09-10 09:30:00","cmp070_linea01","[QMM0004] Mostrador para caja con cajón","[QMM0004] Mostrador para caja con cajón
+Mostrador de 120 cm para el área de cobro.
+Unidad de compra: 1 unidad.","1","2200","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-10 09:30:00"
+"","","","","","","","cmp070_linea02","[QMM0008] Silla ajustable para caja","[QMM0008] Silla ajustable para caja
+Silla de altura ajustable para el personal de caja.
+Unidad de compra: 1 unidad.","2","480","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-10 09:30:00"
+"cmp071","QMSV-MAT-071","2026-08-24 12:05:00","Estanterías y Mobiliario Centroamericano, S.A.","GTQ","QM El Salvador: Recepciones","2026-09-09 11:15:00","cmp071_linea01","[QMM0005] Mesa de acero para recepción de mercancía","[QMM0005] Mesa de acero para recepción de mercancía
+Mesa de 150 x 70 cm para revisión de mercancía recibida.
+Unidad de compra: 1 unidad.","1","1450","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-09 11:15:00"
+"","","","","","","","cmp071_linea02","[QMM0006] Gabinete metálico de almacenamiento","[QMM0006] Gabinete metálico de almacenamiento
+Gabinete de dos puertas con cerradura para insumos.
+Unidad de compra: 1 unidad.","1","1180","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-09 11:15:00"
+"cmp072","QMSV-MAT-072","2026-08-24 14:10:00","Estanterías y Mobiliario Centroamericano, S.A.","GTQ","QM El Salvador: Recepciones","2026-09-10 13:30:00","cmp072_linea01","[QMM0007] Casillero metálico de 6 compartimientos","[QMM0007] Casillero metálico de 6 compartimientos
+Casillero con puertas para guardar pertenencias del personal.
+Unidad de compra: 1 unidad.","1","1850","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-10 13:30:00"
+"cmp073","QMSV-MAT-073","2026-08-24 08:15:00","Empaques y Plásticos del Norte, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-04 09:15:00","cmp073_linea01","[QMM0009] Tarima plástica industrial 120 x 100 cm","[QMM0009] Tarima plástica industrial 120 x 100 cm
+Tarima reutilizable para almacenamiento en bodega.
+Unidad de compra: 1 unidad.","3","420","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 09:15:00"
+"","","","","","","","cmp073_linea02","[QMM0010] Caja plástica apilable 60 L","[QMM0010] Caja plástica apilable 60 L
+Caja reforzada para organizar materiales en bodega.
+Unidad de compra: 1 unidad.","5","165","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 09:15:00"
+"cmp074","QMSV-MAT-074","2026-08-25 10:20:00","Carritos y Canastas del Istmo, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-08-31 11:30:00","cmp074_linea01","[QMM0011] Carrito de supermercado 100 L","[QMM0011] Carrito de supermercado 100 L
+Carrito metálico con asiento infantil para uso de clientes.
+Unidad de compra: 1 unidad.","8","1350","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-31 11:30:00"
+"cmp075","QMSV-MAT-075","2026-08-25 12:25:00","Carritos y Canastas del Istmo, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-01 13:15:00","cmp075_linea01","[QMM0012] Canasta de compras con asas 28 L","[QMM0012] Canasta de compras con asas 28 L
+Canasta plástica para uso de clientes dentro de la tienda.
+Unidad de compra: 1 unidad.","24","85","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-01 13:15:00"
+"","","","","","","","cmp075_linea02","[QMM0013] Canasta de compras con ruedas 45 L","[QMM0013] Canasta de compras con ruedas 45 L
+Canasta plástica de arrastre para uso en pasillos.
+Unidad de compra: 1 unidad.","4","210","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-01 13:15:00"
+"cmp076","QMSV-MAT-076","2026-08-25 14:30:00","Ferretería Comercial del Norte, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-14 09:30:00","cmp076_linea01","[QMM0014] Carretilla de carga plegable 150 kg","[QMM0014] Carretilla de carga plegable 150 kg
+Carretilla manual para traslado de cajas.
+Unidad de compra: 1 unidad.","1","620","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-14 09:30:00"
+"","","","","","","","cmp076_linea02","[QMM0015] Carro de plataforma para bodega 300 kg","[QMM0015] Carro de plataforma para bodega 300 kg
+Carro de cuatro ruedas para traslado interno de mercancía.
+Unidad de compra: 1 unidad.","1","1150","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-14 09:30:00"
+"cmp077","QMSV-MAT-077","2026-08-26 08:05:00","Ferretería Comercial del Norte, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-11 11:15:00","cmp077_linea01","[QMM0016] Carro hidráulico para tarimas 2500 kg","[QMM0016] Carro hidráulico para tarimas 2500 kg
+Carro manual con elevación hidráulica para mover tarimas en bodega.
+Unidad de compra: 1 unidad.","1","3450","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-11 11:15:00"
+"cmp078","QMSV-MAT-078","2026-08-26 10:10:00","Carritos y Canastas del Istmo, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-08-31 13:30:00","cmp078_linea01","[QMM0017] Rueda giratoria para carrito 100 mm","[QMM0017] Rueda giratoria para carrito 100 mm
+Rueda de repuesto para mantenimiento de carritos.
+Unidad de compra: 1 unidad.","8","48","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-31 13:30:00"
+"","","","","","","","cmp078_linea02","[QMM0018] Rueda fija para carrito 100 mm","[QMM0018] Rueda fija para carrito 100 mm
+Rueda de repuesto para mantenimiento de carritos.
+Unidad de compra: 1 unidad.","6","42","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-31 13:30:00"
+"","","","","","","","cmp078_linea03","[QMM0019] Asa de repuesto para canasta 28 L","[QMM0019] Asa de repuesto para canasta 28 L
+Asa plástica compatible con las canastas de compras.
+Unidad de compra: 1 unidad.","8","18","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-31 13:30:00"
+"","","","","","","","cmp078_linea04","[QMM0020] Protector plástico para carrito 100 L","[QMM0020] Protector plástico para carrito 100 L
+Banda plástica de repuesto para proteger los bordes del carrito.
+Unidad de compra: 1 unidad.","8","35","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-08-31 13:30:00"
+"cmp079","QMSV-MAT-079","2026-08-26 12:15:00","Papelería y Consumibles Azteca, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-08 09:15:00","cmp079_linea01","[QMM0021] Papel térmico para caja 80 x 80 mm","[QMM0021] Papel térmico para caja 80 x 80 mm
+Rollo para impresión de recibos en cajas.
+Unidad de compra: 1 rollo de papel térmico de 80 x 80 mm.","30","12.5","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 09:15:00"
+"","","","","","","","cmp079_linea02","[QMM0022] Papel térmico para pago con tarjeta 57 x 40 mm","[QMM0022] Papel térmico para pago con tarjeta 57 x 40 mm
+Papel térmico para imprimir comprobantes en terminales de pago con tarjeta.
+Unidad de compra: 1 rollo de papel térmico de 57 x 40 mm.","24","4.5","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 09:15:00"
+"cmp080","QMSV-MAT-080","2026-08-27 14:20:00","Etiquetas y Señalización Maya, S.A.","GTQ","QM El Salvador: Recepciones","2026-09-07 11:30:00","cmp080_linea01","[QMM0023] Etiquetas adhesivas 50 x 30 mm, rollo 1000 unidades","[QMM0023] Etiquetas adhesivas 50 x 30 mm, rollo 1000 unidades
+Rollo de 1000 etiquetas para identificar precios y materiales.
+Unidad de compra: 1 rollo de 1000 etiquetas.","2","45","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 11:30:00"
+"","","","","","","","cmp080_linea02","[QMM0024] Soporte plástico para etiquetas de precio 100 cm","[QMM0024] Soporte plástico para etiquetas de precio 100 cm
+Tira plástica transparente para sostener etiquetas de precio en estantes.
+Unidad de compra: 1 unidad.","18","22","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 11:30:00"
+"","","","","","","","cmp080_linea03","[QMM0025] Etiquetas de precio para estantes, paquete 100","[QMM0025] Etiquetas de precio para estantes, paquete 100
+Paquete de 100 tarjetas de cartulina para mostrar precios.
+Unidad de compra: 1 paquete de 100 tarjetas de precio.","3","15","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-07 11:30:00"
+"cmp081","QMSV-MAT-081","2026-08-27 08:25:00","Empaques y Plásticos del Norte, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-08 13:15:00","cmp081_linea01","[QMM0026] Bolsas biodegradables medianas, paquete 100","[QMM0026] Bolsas biodegradables medianas, paquete 100
+Paquete para empaque de compras en caja.
+Unidad de compra: 1 paquete de 100 bolsas.","12","38","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 13:15:00"
+"","","","","","","","cmp081_linea02","[QMM0027] Bolsas biodegradables grandes, paquete 100","[QMM0027] Bolsas biodegradables grandes, paquete 100
+Paquete para empaque de compras voluminosas en caja.
+Unidad de compra: 1 paquete de 100 bolsas.","6","58","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 13:15:00"
+"cmp082","QMSV-MAT-082","2026-08-27 10:30:00","Empaques y Plásticos del Norte, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-09 09:30:00","cmp082_linea01","[QMM0028] Plástico para envolver tarimas 50 cm, rollo 2 kg","[QMM0028] Plástico para envolver tarimas 50 cm, rollo 2 kg
+Rollo de plástico estirable para asegurar cajas sobre tarimas.
+Unidad de compra: 1 rollo de plástico de 2 kg.","3","85","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-09 09:30:00"
+"","","","","","","","cmp082_linea02","[QMM0029] Cinta de empaque 48 mm x 100 m","[QMM0029] Cinta de empaque 48 mm x 100 m
+Rollo para cierre de cajas de traslado entre sucursales.
+Unidad de compra: 1 rollo de cinta de 100 m.","10","14","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-09 09:30:00"
+"cmp083","QMSV-MAT-083","2026-08-28 12:05:00","Etiquetas y Señalización Maya, S.A.","GTQ","QM El Salvador: Recepciones","2026-09-08 11:15:00","cmp083_linea01","[QMM0030] Señal de piso mojado plegable","[QMM0030] Señal de piso mojado plegable
+Señal preventiva para áreas de limpieza.
+Unidad de compra: 1 unidad.","2","75","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-08 11:15:00"
+"cmp084","QMSV-MAT-084","2026-08-28 14:10:00","Textiles y Uniformes del Quetzal, S.A.","GTQ","QM El Salvador: Recepciones","2026-09-09 13:30:00","cmp084_linea01","[QMM0031] Camisa polo para personal de caja, talla M","[QMM0031] Camisa polo para personal de caja, talla M
+Camisa azul para uniforme del personal de atención.
+Unidad de compra: 1 unidad.","3","85","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-09 13:30:00"
+"","","","","","","","cmp084_linea02","[QMM0032] Camisa polo para personal de caja, talla L","[QMM0032] Camisa polo para personal de caja, talla L
+Camisa azul para uniforme del personal de atención.
+Unidad de compra: 1 unidad.","4","85","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-09 13:30:00"
+"","","","","","","","cmp084_linea03","[QMM0033] Camisa polo para personal de caja, talla XL","[QMM0033] Camisa polo para personal de caja, talla XL
+Camisa azul para uniforme del personal de atención.
+Unidad de compra: 1 unidad.","2","90","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-09 13:30:00"
+"","","","","","","","cmp084_linea04","[QMM0035] Delantal de trabajo ajustable","[QMM0035] Delantal de trabajo ajustable
+Delantal resistente para personal de limpieza y apoyo.
+Unidad de compra: 1 unidad.","3","45","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-09 13:30:00"
+"cmp085","QMSV-MAT-085","2026-08-28 08:15:00","Seguridad Industrial Cuzcatlán, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-03 09:15:00","cmp085_linea01","[QMM0034] Chaleco reflectivo para bodega, talla L","[QMM0034] Chaleco reflectivo para bodega, talla L
+Chaleco de alta visibilidad para recepción y bodega.
+Unidad de compra: 1 unidad.","3","65","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 09:15:00"
+"","","","","","","","cmp085_linea02","[QMM0037] Guantes de trabajo antideslizantes, par","[QMM0037] Guantes de trabajo antideslizantes, par
+Par de guantes con recubrimiento para sujetar cajas en bodega.
+Unidad de compra: 1 par de guantes.","4","28","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 09:15:00"
+"","","","","","","","cmp085_linea03","[QMM0038] Botas de seguridad punta de acero, talla 40","[QMM0038] Botas de seguridad punta de acero, talla 40
+Par de botas para personal de recepción y bodega.
+Unidad de compra: 1 par de botas.","3","295","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 09:15:00"
+"","","","","","","","cmp085_linea04","[QMM0039] Lentes de protección transparentes","[QMM0039] Lentes de protección transparentes
+Lentes para tareas de mantenimiento de sucursales.
+Unidad de compra: 1 unidad.","3","25","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 09:15:00"
+"","","","","","","","cmp085_linea05","[QMM0040] Faja ajustable para bodega, talla L","[QMM0040] Faja ajustable para bodega, talla L
+Faja de trabajo para uso del personal de bodega.
+Unidad de compra: 1 unidad.","3","95","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 09:15:00"
+"cmp086","QMSV-MAT-086","2026-08-31 10:20:00","Seguridad Industrial Cuzcatlán, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-02 11:30:00","cmp086_linea01","[QMM0036] Guantes desechables para limpieza, talla M, caja 100","[QMM0036] Guantes desechables para limpieza, talla M, caja 100
+Caja de 100 guantes de nitrilo para tareas de limpieza.
+Unidad de compra: 1 caja de 100 guantes.","3","55","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-02 11:30:00"
+"cmp087","QMSV-MAT-087","2026-08-31 12:25:00","Limpieza Total Centroamérica, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-03 13:15:00","cmp087_linea01","[QMM0041] Detergente líquido para pisos 5 L","[QMM0041] Detergente líquido para pisos 5 L
+Envase para limpieza de pisos de la sucursal.
+Unidad de compra: 1 envase de 5 L.","3","68","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 13:15:00"
+"","","","","","","","cmp087_linea02","[QMM0042] Desinfectante concentrado 5 L","[QMM0042] Desinfectante concentrado 5 L
+Envase para limpieza de superficies de la sucursal.
+Unidad de compra: 1 envase de 5 L.","3","82","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 13:15:00"
+"","","","","","","","cmp087_linea03","[QMM0043] Cloro de limpieza 5 L","[QMM0043] Cloro de limpieza 5 L
+Envase de 5 litros para tareas de limpieza de la sucursal.
+Unidad de compra: 1 envase de 5 L.","4","38","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 13:15:00"
+"cmp088","QMSV-MAT-088","2026-08-31 14:30:00","Limpieza Total Centroamérica, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-04 09:30:00","cmp088_linea01","[QMM0044] Desengrasante industrial 5 L","[QMM0044] Desengrasante industrial 5 L
+Envase para limpieza de superficies de trabajo.
+Unidad de compra: 1 envase de 5 L.","2","95","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 09:30:00"
+"","","","","","","","cmp088_linea02","[QMM0045] Limpiavidrios 5 L","[QMM0045] Limpiavidrios 5 L
+Envase de 5 litros para limpiar vitrinas y ventanas.
+Unidad de compra: 1 envase de 5 L.","2","62","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 09:30:00"
+"","","","","","","","cmp088_linea03","[QMM0046] Jabón líquido para dispensador 5 L","[QMM0046] Jabón líquido para dispensador 5 L
+Envase de recarga para lavamanos del personal y clientes.
+Unidad de compra: 1 envase de 5 L.","3","75","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-04 09:30:00"
+"cmp089","QMSV-MAT-089","2026-09-01 08:05:00","Limpieza Total Centroamérica, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-03 11:15:00","cmp089_linea01","[QMM0047] Escoba industrial de cerdas rígidas","[QMM0047] Escoba industrial de cerdas rígidas
+Escoba de 40 cm para limpieza de áreas de bodega.
+Unidad de compra: 1 unidad.","2","48","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 11:15:00"
+"","","","","","","","cmp089_linea02","[QMM0048] Trapeador de algodón con mango","[QMM0048] Trapeador de algodón con mango
+Trapeador con cabezal de algodón de 500 g para limpiar pisos.
+Unidad de compra: 1 unidad.","2","58","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 11:15:00"
+"","","","","","","","cmp089_linea03","[QMM0049] Cubeta con escurridor para trapeador 20 L","[QMM0049] Cubeta con escurridor para trapeador 20 L
+Cubeta de 20 litros con escurridor para limpieza de pisos.
+Unidad de compra: 1 unidad.","1","245","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 11:15:00"
+"","","","","","","","cmp089_linea04","[QMM0050] Paños de microfibra, paquete 12","[QMM0050] Paños de microfibra, paquete 12
+Paquete para limpieza de cajas, estantes y superficies.
+Unidad de compra: 1 paquete de 12 paños.","2","55","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-03 11:15:00"
+"cmp090","QMSV-MAT-090","2026-09-01 10:10:00","Ferretería Comercial del Norte, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-11 13:30:00","cmp090_linea01","[QMM0051] Taladro eléctrico 650 W","[QMM0051] Taladro eléctrico 650 W
+Taladro para instalar y reparar muebles y accesorios.
+Unidad de compra: 1 unidad.","1","480","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-11 13:30:00"
+"","","","","","","","cmp090_linea02","[QMM0052] Juego de destornilladores, 6 piezas","[QMM0052] Juego de destornilladores, 6 piezas
+Juego para mantenimiento de equipos y mobiliario.
+Unidad de compra: 1 juego de 6 destornilladores.","1","75","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-11 13:30:00"
+"cmp091","QMSV-MAT-091","2026-09-01 12:15:00","Herramientas y Mantenimiento del Valle, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-14 09:15:00","cmp091_linea01","[QMM0053] Llave ajustable de 10 pulgadas","[QMM0053] Llave ajustable de 10 pulgadas
+Herramienta para reparaciones y ajustes en la sucursal.
+Unidad de compra: 1 unidad.","1","58","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-14 09:15:00"
+"","","","","","","","cmp091_linea02","[QMM0054] Martillo de uña de 16 onzas","[QMM0054] Martillo de uña de 16 onzas
+Herramienta para mantenimiento general.
+Unidad de compra: 1 unidad.","1","45","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-14 09:15:00"
+"","","","","","","","cmp091_linea03","[QMM0055] Cinta métrica de 5 m","[QMM0055] Cinta métrica de 5 m
+Herramienta para medición de espacios y mobiliario.
+Unidad de compra: 1 unidad.","1","32","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-14 09:15:00"
+"cmp092","QMSV-MAT-092","2026-09-02 14:20:00","Ferretería Comercial del Norte, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-18 11:30:00","cmp092_linea01","[QMM0056] Escalera de aluminio de 6 escalones","[QMM0056] Escalera de aluminio de 6 escalones
+Escalera para reponer productos y realizar mantenimiento.
+Unidad de compra: 1 unidad.","1","650","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-18 11:30:00"
+"","","","","","","","cmp092_linea02","[QMM0057] Tornillos y tarugos 6 mm, paquete 100 pares","[QMM0057] Tornillos y tarugos 6 mm, paquete 100 pares
+Tornillos y tarugos plásticos de 6 mm para fijar accesorios y señales a la pared.
+Unidad de compra: 1 paquete de 100 tornillos y 100 tarugos.","2","42","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-18 11:30:00"
+"cmp093","QMSV-MAT-093","2026-09-02 08:25:00","Ferretería Comercial del Norte, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-14 13:15:00","cmp093_linea01","[QMM0058] Bombillo LED 18 W","[QMM0058] Bombillo LED 18 W
+Bombillo de repuesto para iluminación de áreas de trabajo.
+Unidad de compra: 1 unidad.","8","38","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-14 13:15:00"
+"","","","","","","","cmp093_linea02","[QMM0059] Extensión eléctrica de trabajo 10 m","[QMM0059] Extensión eléctrica de trabajo 10 m
+Extensión para equipos de mantenimiento.
+Unidad de compra: 1 unidad.","2","125","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-14 13:15:00"
+"","","","","","","","cmp093_linea03","[QMM0060] Multitoma eléctrica con protección, 6 enchufes","[QMM0060] Multitoma eléctrica con protección, 6 enchufes
+Multitoma para conectar equipos del área de caja.
+Unidad de compra: 1 unidad.","2","85","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-14 13:15:00"
+"cmp094","QMSV-MAT-094","2026-09-11 10:30:00","Suministros Comerciales Quetzal, S.A.","GTQ","QM El Salvador: Recepciones","2026-09-24 09:30:00","cmp094_linea01","[QMM0021] Papel térmico para caja 80 x 80 mm","[QMM0021] Papel térmico para caja 80 x 80 mm
+Rollo para impresión de recibos en cajas.
+Unidad de compra: 1 rollo de papel térmico de 80 x 80 mm.","20","12.5","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-24 09:30:00"
+"","","","","","","","cmp094_linea02","[QMM0022] Papel térmico para pago con tarjeta 57 x 40 mm","[QMM0022] Papel térmico para pago con tarjeta 57 x 40 mm
+Papel térmico para imprimir comprobantes en terminales de pago con tarjeta.
+Unidad de compra: 1 rollo de papel térmico de 57 x 40 mm.","16","4.5","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-24 09:30:00"
+"cmp095","QMSV-MAT-095","2026-09-14 12:05:00","Empaques y Plásticos del Norte, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-23 11:15:00","cmp095_linea01","[QMM0026] Bolsas biodegradables medianas, paquete 100","[QMM0026] Bolsas biodegradables medianas, paquete 100
+Paquete para empaque de compras en caja.
+Unidad de compra: 1 paquete de 100 bolsas.","8","38","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-23 11:15:00"
+"","","","","","","","cmp095_linea02","[QMM0027] Bolsas biodegradables grandes, paquete 100","[QMM0027] Bolsas biodegradables grandes, paquete 100
+Paquete para empaque de compras voluminosas en caja.
+Unidad de compra: 1 paquete de 100 bolsas.","4","58","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-23 11:15:00"
+"cmp096","QMSV-MAT-096","2026-09-15 14:10:00","Limpieza Total Centroamérica, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-18 13:30:00","cmp096_linea01","[QMM0041] Detergente líquido para pisos 5 L","[QMM0041] Detergente líquido para pisos 5 L
+Envase para limpieza de pisos de la sucursal.
+Unidad de compra: 1 envase de 5 L.","2","68","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-18 13:30:00"
+"","","","","","","","cmp096_linea02","[QMM0042] Desinfectante concentrado 5 L","[QMM0042] Desinfectante concentrado 5 L
+Envase para limpieza de superficies de la sucursal.
+Unidad de compra: 1 envase de 5 L.","2","82","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-18 13:30:00"
+"cmp097","QMSV-MAT-097","2026-09-16 08:15:00","Etiquetas y Señalización Maya, S.A.","GTQ","QM El Salvador: Recepciones","2026-09-29 09:15:00","cmp097_linea01","[QMM0023] Etiquetas adhesivas 50 x 30 mm, rollo 1000 unidades","[QMM0023] Etiquetas adhesivas 50 x 30 mm, rollo 1000 unidades
+Rollo de 1000 etiquetas para identificar precios y materiales.
+Unidad de compra: 1 rollo de 1000 etiquetas.","1","45","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-29 09:15:00"
+"","","","","","","","cmp097_linea02","[QMM0025] Etiquetas de precio para estantes, paquete 100","[QMM0025] Etiquetas de precio para estantes, paquete 100
+Paquete de 100 tarjetas de cartulina para mostrar precios.
+Unidad de compra: 1 paquete de 100 tarjetas de precio.","2","15","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-29 09:15:00"
+"cmp098","QMSV-MAT-098","2026-09-17 10:20:00","Seguridad Industrial Cuzcatlán, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-21 11:30:00","cmp098_linea01","[QMM0036] Guantes desechables para limpieza, talla M, caja 100","[QMM0036] Guantes desechables para limpieza, talla M, caja 100
+Caja de 100 guantes de nitrilo para tareas de limpieza.
+Unidad de compra: 1 caja de 100 guantes.","2","55","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-21 11:30:00"
+"","","","","","","","cmp098_linea02","[QMM0037] Guantes de trabajo antideslizantes, par","[QMM0037] Guantes de trabajo antideslizantes, par
+Par de guantes con recubrimiento para sujetar cajas en bodega.
+Unidad de compra: 1 par de guantes.","3","28","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-21 11:30:00"
+"cmp099","QMSV-MAT-099","2026-09-18 12:25:00","Limpieza Total Centroamérica, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-09-23 13:15:00","cmp099_linea01","[QMM0043] Cloro de limpieza 5 L","[QMM0043] Cloro de limpieza 5 L
+Envase de 5 litros para tareas de limpieza de la sucursal.
+Unidad de compra: 1 envase de 5 L.","3","38","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-23 13:15:00"
+"","","","","","","","cmp099_linea02","[QMM0046] Jabón líquido para dispensador 5 L","[QMM0046] Jabón líquido para dispensador 5 L
+Envase de recarga para lavamanos del personal y clientes.
+Unidad de compra: 1 envase de 5 L.","2","75","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-23 13:15:00"
+"","","","","","","","cmp099_linea03","[QMM0050] Paños de microfibra, paquete 12","[QMM0050] Paños de microfibra, paquete 12
+Paquete para limpieza de cajas, estantes y superficies.
+Unidad de compra: 1 paquete de 12 paños.","1","55","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-09-23 13:15:00"
+"cmp100","QMSV-MAT-100","2026-09-21 14:30:00","Herramientas y Mantenimiento del Valle, S.A. de C.V.","GTQ","QM El Salvador: Recepciones","2026-10-02 09:30:00","cmp100_linea01","[QMM0029] Cinta de empaque 48 mm x 100 m","[QMM0029] Cinta de empaque 48 mm x 100 m
+Rollo para cierre de cajas de traslado entre sucursales.
+Unidad de compra: 1 rollo de cinta de 100 m.","7","14","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-10-02 09:30:00"
+"","","","","","","","cmp100_linea02","[QMM0057] Tornillos y tarugos 6 mm, paquete 100 pares","[QMM0057] Tornillos y tarugos 6 mm, paquete 100 pares
+Tornillos y tarugos plásticos de 6 mm para fijar accesorios y señales a la pared.
+Unidad de compra: 1 paquete de 100 tornillos y 100 tarugos.","1","42","account.1_impuestos_plantilla_iva_por_cobrar","uom.product_uom_unit","2026-10-02 09:30:00"
