@@ -299,7 +299,7 @@ ORDER BY f.name;
  
 -- 30. RPA: clientes cargados por el bot de UiPath (los crea el usuario del bot)
 SELECT p.name                                          AS cliente,
-       p.company_type                                  AS tipo,
+       CASE WHEN p.is_company THEN 'Company' ELSE 'Person' END AS tipo,
        p.email, p.phone,
        p.city                                          AS ciudad,
        coalesce(co.name->>'es_419', co.name->>'en_US') AS pais,
@@ -319,7 +319,8 @@ SELECT x.module || '.' || x.name                     AS id_externo,
        coalesce(t.name->>'es_419', t.name->>'en_US') AS producto,
        t.type                                        AS tipo,
        t.list_price                                  AS precio_venta,
-       t.standard_price                              AS costo,
+       (SELECT v.value FROM product_product pp, jsonb_each_text(pp.standard_price) v
+         WHERE pp.product_tmpl_id = t.id LIMIT 1)    AS costo,
        t.is_published                                AS publicado,
        (SELECT coalesce(sum(q.quantity), 0)
           FROM stock_quant q
@@ -331,7 +332,7 @@ JOIN res_users u          ON u.id = t.create_uid
 LEFT JOIN ir_model_data x ON x.model = 'product.template' AND x.res_id = t.id
 WHERE u.login = 'bot.rpa@quetzalmart.example.com'
 ORDER BY t.id DESC;
- 
+
  
 -- 32. RPA: resumen de lo que cargo el bot hoy (correr justo despues de ejecutarlo)
 SELECT 'clientes' AS tipo, count(*) AS registros
@@ -343,6 +344,8 @@ SELECT 'productos', count(*)
 FROM product_template t
 JOIN res_users u ON u.id = t.create_uid
 WHERE u.login = 'bot.rpa@quetzalmart.example.com' AND t.create_date >= current_date;
+
+
 -- ================================
 -- Ariel - compras y materiales
 -- ================================
