@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Actualizar cantidades",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "C1XkFJD7wkKDKQIJfmHhhQ",
+  "Reference": "YleQZ9bU4kmC4KA_9JIVEQ/C1XkFJD7wkKDKQIJfmHhhQ",
+  "ParentRef": "YleQZ9bU4kmC4KA_9JIVEQ/hT-V0nZ_kE-wYevX80-aiQ",
+  "Created": "2026-10-08T21:54:17.6136287Z",
+  "Updated": "2026-10-08T21:54:17.6136287Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

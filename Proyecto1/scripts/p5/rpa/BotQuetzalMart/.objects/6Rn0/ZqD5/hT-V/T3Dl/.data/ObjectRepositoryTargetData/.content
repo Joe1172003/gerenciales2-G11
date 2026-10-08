@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="avaTprapUECYchPp2k5osQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="quetzalmart-g11.duckdns.org/odoo/physical-inventory" DesignTimeRectangle="132, 186, 97, 23" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentname='action_apply_all' tag='SPAN' type='' class='' aaname='Aplicar todo' matching:parentname='fuzzy' fuzzylevel:parentname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Aplicar todo' /&gt;" Guid="7474b1f9-0b55-4c85-a5e3-cbd18687e4be" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Ajustes de inventario' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="118, 178, 125, 41" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='object' class='btn btn-secondary' aaname='Aplicar todo' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Aplicar todo' /&gt;" Guid="ff61ac30-aab2-4adb-917b-25d0a39fb3bf" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5fe6eaa38a119cc5a49d537b9780b506.jpg" xmlns="">0pfaOJ05h_ECqFPQmkgaYLQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

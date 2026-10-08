@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uAvZKDbm1Ue4XHkOFDa2LA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="quetzalmart-g11.duckdns.org/odoo/action-59/import" DesignTimeRectangle="34, 177, 204, 41" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='button' /&gt;" Guid="592dd65d-4f07-41dd-a8e3-d3a7badf5e9f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Importar un archivo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f69f1dfac2d8f356fac68015287e1ec1.jpg" xmlns="">0GvLfEPJtwE-aBWM4wEcAPQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

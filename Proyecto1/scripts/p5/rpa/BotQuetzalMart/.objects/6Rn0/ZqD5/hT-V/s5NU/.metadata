@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Probar",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "s5NUI1L8LEaRrlywMUY8Wg",
+  "Reference": "YleQZ9bU4kmC4KA_9JIVEQ/s5NUI1L8LEaRrlywMUY8Wg",
+  "ParentRef": "YleQZ9bU4kmC4KA_9JIVEQ/hT-V0nZ_kE-wYevX80-aiQ",
+  "Created": "2026-10-08T20:42:24.2175977Z",
+  "Updated": "2026-10-08T20:42:24.2175977Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

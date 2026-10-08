@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-GD_hJQZ3kqYfT06GAUAfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="quetzalmart-g11.duckdns.org/odoo/action-59/import" DesignTimeRectangle="476, 261, 177, 23" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='B' /&gt;" Guid="1385cb28-3bdf-43e9-9a32-c92d3c95b8e4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Importar un archivo' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="26d09a84f97026c0d736794a3b68da5f.jpg" xmlns="">0ydaPQK_UWkyWjUBFhOGUrQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

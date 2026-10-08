@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1v4lfDihNE2SonkcAAWDsA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="quetzalmart-g11.duckdns.org/odoo/physical-inventory" DesignTimeRectangle="390, 645, 169, 23" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='dialog_1' tag='SPAN' type='' class='' aaname='Actualizar cantidades' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Actualizar cantidades' /&gt;" Guid="7082475a-6f05-48bd-84df-333822ca10e3" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Ajustes de inventario' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="377, 637, 196, 41" ElementType="Button" FuzzySelectorArgument="&lt;webctrl name='action_apply' tag='BUTTON' type='object' class='btn btn-primary' aaname='Actualizar cantidades' matching:name='fuzzy' fuzzylevel:name='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Actualizar cantidades' /&gt;" Guid="18e8ca8f-0322-41f5-83de-0792e9e04b3f" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dab8f57910030509306800181fcf0784.jpg" xmlns="">0-nk8ufe7_02GtdjpuEAdpg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

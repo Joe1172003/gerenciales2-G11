@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Todo parece correcto.",
+  "Type": "Element",
+  "Id": "8Rba1i-pQUWAVvw4hNpSiw",
+  "Reference": "YleQZ9bU4kmC4KA_9JIVEQ/8Rba1i-pQUWAVvw4hNpSiw",
+  "ParentRef": "YleQZ9bU4kmC4KA_9JIVEQ/hT-V0nZ_kE-wYevX80-aiQ",
+  "Created": "2026-10-08T21:34:49.5786706Z",
+  "Updated": "2026-10-08T21:34:49.5786706Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

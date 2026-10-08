@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Subir archivo de datos",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Q1yUnpLsnEGN-NyXTH5vlw",
+  "Reference": "YleQZ9bU4kmC4KA_9JIVEQ/Q1yUnpLsnEGN-NyXTH5vlw",
+  "ParentRef": "YleQZ9bU4kmC4KA_9JIVEQ/hT-V0nZ_kE-wYevX80-aiQ",
+  "Created": "2026-10-08T20:39:27.3190247Z",
+  "Updated": "2026-10-08T20:39:27.3190247Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
