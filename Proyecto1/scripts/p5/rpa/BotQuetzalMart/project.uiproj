@@ -1,0 +1,6 @@
+{
+  "Name": "BotQuetzalMart",
+  "ProjectType": "Process",
+  "Description": "Carga clientes y productos a Odoo desde carpetas de Excel",
+  "MainFile": "Main.xaml"
+}

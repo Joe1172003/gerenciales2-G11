@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Login  QuetzalMart",
+  "Type": "App",
+  "Id": "6Rn0R1eJB0ifzJHcWkLw3w",
+  "Reference": "YleQZ9bU4kmC4KA_9JIVEQ/6Rn0R1eJB0ifzJHcWkLw3w",
+  "Created": "2026-10-08T20:05:52.0918371Z",
+  "Updated": "2026-10-08T20:05:52.0918371Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

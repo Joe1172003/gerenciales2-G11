@@ -12,7 +12,7 @@
 ' solo, sin importar el idioma del usuario.
 ' ============================================================================
 out_clientes = New System.Data.DataTable("clientes")
-For Each col As String In "id,name,company_type,parent_id,email,phone,street,street2,city,state_id,zip,country_id,vat,website,category_id/id,ref,comment".Split(","c)
+For Each col As String In "id,name,company_type,parent_id,email,phone,street,street2,city,state_id,zip,country_id,vat,Website Link,category_id/id,ref,comment".Split(","c)
     out_clientes.Columns.Add(col, GetType(String))
 Next
 

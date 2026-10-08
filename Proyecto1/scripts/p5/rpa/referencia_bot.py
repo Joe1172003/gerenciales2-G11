@@ -19,7 +19,7 @@ from pathlib import Path
 from openpyxl import Workbook, load_workbook
 
 COLS_CLIENTES = ["id", "name", "company_type", "parent_id", "email", "phone", "street", "street2", "city",
-                 "state_id", "zip", "country_id", "vat", "website", "category_id/id", "ref", "comment"]
+                 "state_id", "zip", "country_id", "vat", "Website Link", "category_id/id", "ref", "comment"]
 COLS_ETIQUETAS = ["id", "name"]
 COLS_PRODUCTOS = ["id", "name", "type", "default_code", "barcode", "list_price", "standard_price", "weight",
                   "description_sale", "is_storable", "is_published"]
@@ -143,7 +143,7 @@ def escribir(ruta, columnas, filas):
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     entrada, salida = Path(args[0]), Path(args[1])
-    ubicacion = args[2] if len(args) > 2 else "GT/Existencias"
+    ubicacion = args[2] if len(args) > 2 else "QMGT/Existencias"
     no_publicar = "--no-publicar" in sys.argv
     salida.mkdir(parents=True, exist_ok=True)
 

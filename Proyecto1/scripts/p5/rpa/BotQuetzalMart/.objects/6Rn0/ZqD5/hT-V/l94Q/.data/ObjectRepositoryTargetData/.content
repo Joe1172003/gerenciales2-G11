@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="M9Pr63huFEmNgQkQtwol5w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="quetzalmart-g11.duckdns.org/web/login" DesignTimeRectangle="772, 478, 375, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='wrapwrap' tag='BUTTON' type='submit' /&gt;" Guid="01af877c-a7b2-4b03-96ee-74c895f21a91" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Login | QuetzalMart' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="cccf3197f2e2260911516ae8e01f85e2.jpg" xmlns="">0i5IjUS1Nc0y6qhkLBF_BqA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

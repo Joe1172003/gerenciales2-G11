@@ -37,6 +37,7 @@ Primero confirma que Odoo acepta los archivos. Si esto funciona a mano, el bot s
    python scripts\p5\rpa\generar_carpeta_prueba.py
    python scripts\p5\rpa\referencia_bot.py carpeta_prueba_rpa salida_esperada "GT/Existencias" --no-publicar
    ```
+   (En esta compu el comando es `py`, no `python`. La ubicación real es `QMGT/Existencias`, úsala en lugar de `GT/Existencias`.)
    Debe terminar con `TOTAL: 3 etiquetas, 8 clientes, 9 productos, 6 existencias`.
 
 2. **Averigua el nombre real de la ubicación de existencias.** En Odoo ve a **Inventario → Configuración → Ubicaciones** y busca la de QM Guatemala que termina en `/Existencias` (por ejemplo `GT/Existencias` o `QMGT/Existencias`).
@@ -53,11 +54,12 @@ Primero confirma que Odoo acepta los archivos. Si esto funciona a mano, el bot s
    | 4 | `4_existencias.xlsx` | Inventario → Operaciones → **Inventario físico**. Después de importar, presiona **Aplicar todo** → **Aplicar** |
 
 4. **Mientras lo haces, copia la URL de cada pantalla de importación** (termina en `/import`). El bot va a ir directo a esas 4 direcciones. Anótalas así:
+   Ya probadas el 8 de octubre:
    ```
-   URL_ETIQUETAS   = https://quetzalmart-g11.duckdns.org/odoo/…/import
-   URL_CLIENTES    = https://quetzalmart-g11.duckdns.org/odoo/contacts/import
-   URL_PRODUCTOS   = https://quetzalmart-g11.duckdns.org/odoo/…/import
-   URL_EXISTENCIAS = https://quetzalmart-g11.duckdns.org/odoo/…/import
+   URL_ETIQUETAS   = https://quetzalmart-g11.duckdns.org/odoo/action-59/import?active_model=res.partner.category
+   URL_CLIENTES    = https://quetzalmart-g11.duckdns.org/odoo/contacts/import?active_model=res.partner
+   URL_PRODUCTOS   = https://quetzalmart-g11.duckdns.org/odoo/action-498/import?active_model=product.template
+   URL_EXISTENCIAS = https://quetzalmart-g11.duckdns.org/odoo/physical-inventory/import
    ```
 
 5. Comprueba el resultado con las consultas **30, 31 y 32** de `sql/consultas.sql`.
@@ -90,7 +92,7 @@ Créalas en el panel **Variables**, con alcance en toda la secuencia principal:
 | `str_url` | String | `"https://quetzalmart-g11.duckdns.org"` |
 | `str_usuario` | String | `"bot.rpa@quetzalmart.example.com"` |
 | `str_password` | String | *(vacío, se pide al iniciar)* |
-| `str_ubicacion` | String | `"GT/Existencias"` ← el nombre real del paso 0.2 |
+| `str_ubicacion` | String | `"QMGT/Existencias"` |
 | `bool_noPublicar` | Boolean | `True` en ensayos · `False` el día de la calificación |
 | `arr_archivos` | String[] | |
 | `list_hojas` | List&lt;String&gt; | |
@@ -168,7 +170,7 @@ Haz un workflow aparte para no repetir lo mismo cuatro veces: clic derecho en el
 2. **Click** sobre el botón **Cargar archivo de datos** (o **Subir archivo**). Lo indicas en el navegador con **Indicate in browser**.
 3. Se abre la ventana de Windows para elegir archivo. **Type Into** en la casilla **Nombre de archivo** de esa ventana, con el texto `in_archivo & "[k(enter)]"`.
 4. **Click** en **Probar**.
-5. **Check App State**, con un tiempo de espera de 20 segundos, sobre el mensaje **verde** que aparece cuando todo está bien:
+5. **Check App State**, con un tiempo de espera de 20 segundos, sobre el mensaje **"Todo parece correcto."** que aparece cuando todo está bien:
    - **Si aparece:**
      1. **Click** en **Importar**.
      2. **Check App State** sobre la notificación *"… registros importados de forma exitosa"*.
@@ -192,8 +194,8 @@ Haz un workflow aparte para no repetir lo mismo cuatro veces: clic derecho en el
       - Si una tabla quedó vacía, no la importes. Pon cada Invoke dentro de un **If** con `dt_productos.Rows.Count > 0` (y la condición equivalente para cada tabla).
       - Después de cada Invoke, **Add Data Row** en la bitácora con `{Now…, "Importación", "2_clientes.xlsx", "", resultado}` (cambiando el nombre del archivo según el caso).
    3. Después de importar las existencias, la página vuelve a **Inventario físico**:
-      1. **Click** en **Aplicar todo**.
-      2. En la ventana que se abre, **Click** en **Aplicar**.
+      1. **Click** en **Aplicar todo**. Solo aplica las líneas con cantidad contada (las del bot); las demás muestran "Establecer" y no se tocan.
+      2. En la ventana "Referencia/motivo del ajuste de inventario", **Type Into** en Motivo `"Carga RPA " & Now.ToString("dd/MM/yyyy HH:mm")` y **Click** en **Actualizar cantidades**.
       3. Agrega a la bitácora la fila `"Existencias aplicadas"`.
 9. **Write Range** de `dt_bitacora` → `System.IO.Path.Combine(str_salida, "bitacora.xlsx")`.
 10. **Message Box** con un resumen:
