@@ -1,0 +1,61 @@
+id,name,email,phone,country_id/id,company_type
+CLI0001,José Cruz,cliente1@example.com,+503 2222 0001,base.sv,person
+CLI0002,Jorge Torres,cliente2@example.com,+502 5555 0002,base.gt,person
+CLI0003,Carlos Gómez,cliente3@example.com,+502 5555 0003,base.gt,person
+CLI0004,Fernando Martínez,cliente4@example.com,+503 2222 0004,base.sv,person
+CLI0005,Sofía Flores,cliente5@example.com,+503 2222 0005,base.sv,person
+CLI0006,Fernando Flores,cliente6@example.com,+52 55 5555 0006,base.mx,person
+CLI0007,Marta Cruz,cliente7@example.com,+52 55 5555 0007,base.mx,person
+CLI0008,Laura García,cliente8@example.com,+52 55 5555 0008,base.mx,person
+CLI0009,Luis Torres,cliente9@example.com,+502 5555 0009,base.gt,person
+CLI0010,Lucía Fernández,cliente10@example.com,+52 55 5555 0010,base.mx,person
+CLI0011,Carmen Rodríguez,cliente11@example.com,+52 55 5555 0011,base.mx,person
+CLI0012,Sofía Torres,cliente12@example.com,+52 55 5555 0012,base.mx,person
+CLI0013,Sofía Cruz,cliente13@example.com,+503 2222 0013,base.sv,person
+CLI0014,Pedro Ramírez,cliente14@example.com,+503 2222 0014,base.sv,person
+CLI0015,Ana García,cliente15@example.com,+52 55 5555 0015,base.mx,person
+CLI0016,Carmen Sánchez,cliente16@example.com,+52 55 5555 0016,base.mx,person
+CLI0017,Sofía García,cliente17@example.com,+503 2222 0017,base.sv,person
+CLI0018,Luis Ramírez,cliente18@example.com,+502 5555 0018,base.gt,person
+CLI0019,María Fernández,cliente19@example.com,+502 5555 0019,base.gt,person
+CLI0020,Diego Martínez,cliente20@example.com,+502 5555 0020,base.gt,person
+CLI0021,Roberto Ortiz,cliente21@example.com,+502 5555 0021,base.gt,person
+CLI0022,Fernando Flores,cliente22@example.com,+52 55 5555 0022,base.mx,person
+CLI0023,Luis Ortiz,cliente23@example.com,+502 5555 0023,base.gt,person
+CLI0024,Carlos García,cliente24@example.com,+503 2222 0024,base.sv,person
+CLI0025,Marta Cruz,cliente25@example.com,+52 55 5555 0025,base.mx,person
+CLI0026,Jorge Torres,cliente26@example.com,+52 55 5555 0026,base.mx,person
+CLI0027,María Gómez,cliente27@example.com,+52 55 5555 0027,base.mx,person
+CLI0028,Carmen Fernández,cliente28@example.com,+503 2222 0028,base.sv,person
+CLI0029,Lucía Díaz,cliente29@example.com,+502 5555 0029,base.gt,person
+CLI0030,Laura Díaz,cliente30@example.com,+503 2222 0030,base.sv,person
+CLI0031,Diego Ramírez,cliente31@example.com,+502 5555 0031,base.gt,person
+CLI0032,Luis Cruz,cliente32@example.com,+502 5555 0032,base.gt,person
+CLI0033,Carlos García,cliente33@example.com,+52 55 5555 0033,base.mx,person
+CLI0034,Sofía Sánchez,cliente34@example.com,+52 55 5555 0034,base.mx,person
+CLI0035,Jorge Fernández,cliente35@example.com,+502 5555 0035,base.gt,person
+CLI0036,Fernando Rodríguez,cliente36@example.com,+503 2222 0036,base.sv,person
+CLI0037,Fernando Martínez,cliente37@example.com,+52 55 5555 0037,base.mx,person
+CLI0038,Marta Cruz,cliente38@example.com,+502 5555 0038,base.gt,person
+CLI0039,Fernando Sánchez,cliente39@example.com,+52 55 5555 0039,base.mx,person
+CLI0040,Carlos Sánchez,cliente40@example.com,+52 55 5555 0040,base.mx,person
+CLI0041,Fernando Ortiz,cliente41@example.com,+503 2222 0041,base.sv,person
+CLI0042,Diego Fernández,cliente42@example.com,+52 55 5555 0042,base.mx,person
+CLI0043,Lucía Morales,cliente43@example.com,+502 5555 0043,base.gt,person
+CLI0044,Lucía Gómez,cliente44@example.com,+502 5555 0044,base.gt,person
+CLI0045,Fernando Morales,cliente45@example.com,+503 2222 0045,base.sv,person
+CLI0046,María Martínez,cliente46@example.com,+502 5555 0046,base.gt,person
+CLI0047,Marta Pérez,cliente47@example.com,+503 2222 0047,base.sv,person
+CLI0048,Pedro Ramírez,cliente48@example.com,+503 2222 0048,base.sv,person
+CLI0049,María Gómez,cliente49@example.com,+502 5555 0049,base.gt,person
+CLI0050,José Sánchez,cliente50@example.com,+503 2222 0050,base.sv,person
+CLI0051,Carlos Ortiz,cliente51@example.com,+502 5555 0051,base.gt,person
+CLI0052,Jorge Gómez,cliente52@example.com,+52 55 5555 0052,base.mx,person
+CLI0053,Jorge Fernández,cliente53@example.com,+503 2222 0053,base.sv,person
+CLI0054,Diego Sánchez,cliente54@example.com,+52 55 5555 0054,base.mx,person
+CLI0055,José Fernández,cliente55@example.com,+502 5555 0055,base.gt,person
+CLI0056,Fernando Ortiz,cliente56@example.com,+503 2222 0056,base.sv,person
+CLI0057,Roberto Rodríguez,cliente57@example.com,+503 2222 0057,base.sv,person
+CLI0058,Sofía López,cliente58@example.com,+503 2222 0058,base.sv,person
+CLI0059,Jorge Fernández,cliente59@example.com,+503 2222 0059,base.sv,person
+CLI0060,Carmen Pérez,cliente60@example.com,+503 2222 0060,base.sv,person
